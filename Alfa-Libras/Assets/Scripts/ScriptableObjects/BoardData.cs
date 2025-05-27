@@ -1,3 +1,5 @@
+using NUnit.Framework;
+using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
@@ -8,7 +10,7 @@ public class BoardData : ScriptableObject
     [System.Serializable]
     public class SearchingWord
     {
-        public string word;
+        public string Word;
     }
 
     [System.Serializable]
@@ -49,6 +51,7 @@ public class BoardData : ScriptableObject
     public int Rows = 0;
 
     public BoardRow[] Board;
+    public List<SearchingWord> SearchWords = new List<SearchingWord>();
 
     public void ClearWithEmptyString()
     {
