@@ -18,125 +18,125 @@ MonoBehaviour:
   Board:
   - Size: 10
     Row:
-    - A
-    - M
-    - E
-    - N
-    - X
-    - M
     - S
-    - K
-    - U
-    - H
-  - Size: 10
-    Row:
-    - B
-    - P
-    - H
-    - I
-    - L
-    - P
-    - E
-    - L
-    - M
-    - R
-  - Size: 10
-    Row:
-    - I
-    - A
-    - M
-    - I
-    - G
-    - O
     - S
     - T
-    - J
-    - T
-  - Size: 10
-    Row:
-    - S
-    - I
-    - X
-    - P
-    - Z
-    - T
-    - T
-    - H
-    - I
-    - A
-  - Size: 10
-    Row:
-    - H
-    - I
-    - R
-    - A
-    - R
-    - I
-    - P
-    - Z
-    - G
     - Q
+    - N
+    - W
+    - G
+    - A
+    - Z
+    - X
   - Size: 10
     Row:
-    - P
+    - D
     - U
-    - J
-    - R
-    - T
+    - Q
+    - G
+    - D
+    - L
+    - Z
+    - U
     - K
     - R
+  - Size: 10
+    Row:
+    - W
+    - P
+    - A
+    - I
+    - S
+    - C
+    - R
+    - O
+    - B
+    - V
+  - Size: 10
+    Row:
+    - Z
+    - J
+    - M
+    - V
+    - C
+    - M
+    - O
+    - M
+    - X
+    - T
+  - Size: 10
+    Row:
+    - A
+    - V
+    - I
+    - Q
+    - K
+    - T
+    - F
     - I
     - F
-    - Q
+    - F
   - Size: 10
     Row:
-    - P
-    - T
-    - A
-    - T
-    - Q
-    - K
-    - I
+    - G
+    - H
+    - G
     - W
-    - U
+    - C
+    - N
+    - A
+    - G
+    - T
+    - H
+  - Size: 10
+    Row:
+    - G
+    - A
+    - O
+    - R
     - I
+    - G
+    - E
+    - M
+    - N
+    - L
+  - Size: 10
+    Row:
+    - H
+    - Q
+    - W
+    - X
+    - F
+    - W
+    - J
+    - J
+    - C
+    - H
   - Size: 10
     Row:
     - C
-    - S
-    - X
-    - E
-    - P
-    - P
-    - G
-    - J
-    - S
-    - H
-  - Size: 10
-    Row:
-    - R
-    - E
-    - T
-    - N
-    - G
-    - Z
-    - Q
-    - O
-    - V
-    - G
-  - Size: 10
-    Row:
-    - Q
     - T
     - Y
+    - E
+    - D
+    - I
+    - D
+    - S
     - L
+    - B
+  - Size: 10
+    Row:
+    - U
     - A
-    - J
-    - W
-    - O
-    - F
     - Z
+    - P
+    - J
+    - X
+    - J
+    - R
+    - T
+    - H
   SearchWords:
   - Word: PAI
   - Word: AMIGO
-  - Word: ARTE
+  - Word: ORIGEM

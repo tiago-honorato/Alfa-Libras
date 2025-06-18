@@ -50,6 +50,8 @@ public class WordsGrid : MonoBehaviour
                     else
                     {
                         _squareList.Add(Instantiate(gridSquarePrefab));
+                        _squareList[_squareList.Count - 1].GetComponent<GridSquare>().SetSprite(normalLetterData, correctLetterData, selectedLetterData);
+                        _squareList[_squareList.Count - 1].transform.SetParent(this.transform);
                     }
                 }
             }
