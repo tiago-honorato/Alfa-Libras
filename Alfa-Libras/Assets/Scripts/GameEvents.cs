@@ -41,14 +41,14 @@ public static class GameEvents
 
     //**************************************
 
-    public delegate void CheckSquare();
+    public delegate void CheckSquare(string letter, Vector3 squarePosition, int SquareIndex);
     public static event CheckSquare OnCheckSquare;
 
-    public static void CheckSquareMethod()
+    public static void CheckSquareMethod(string letter, Vector3 squarePosition, int SquareIndex)
     {
         if (OnCheckSquare != null)
         {
-            OnCheckSquare();
+            OnCheckSquare(letter, squarePosition, SquareIndex);
         }
     }
 
