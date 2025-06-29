@@ -13,44 +13,129 @@ MonoBehaviour:
   m_Name: Puzzle1
   m_EditorClassIdentifier: 
   timeInSeconds: 0
-  Columns: 5
-  Rows: 5
+  Columns: 10
+  Rows: 10
   Board:
-  - Size: 5
-    Row:
-    - P
-    - R
-    - S
-    - L
-    - X
-  - Size: 5
-    Row:
-    - A
-    - M
-    - I
-    - G
-    - O
-  - Size: 5
-    Row:
-    - I
-    - J
-    - A
-    - Z
-    - D
-  - Size: 5
+  - Size: 10
     Row:
     - H
-    - C
-    - P
-    - I
-    - I
-  - Size: 5
-    Row:
-    - R
-    - G
+    - S
+    - W
     - M
-    - T
+    - P
+    - G
+    - R
+    - N
+    - U
+    - N
+  - Size: 10
+    Row:
+    - J
+    - Z
+    - B
+    - A
+    - H
+    - X
+    - M
+    - G
+    - G
     - O
+  - Size: 10
+    Row:
+    - S
+    - R
+    - U
+    - C
+    - O
+    - M
+    - O
+    - R
+    - J
+    - L
+  - Size: 10
+    Row:
+    - F
+    - X
+    - A
+    - E
+    - A
+    - W
+    - Q
+    - D
+    - U
+    - K
+  - Size: 10
+    Row:
+    - G
+    - K
+    - R
+    - Y
+    - U
+    - K
+    - X
+    - Y
+    - K
+    - B
+  - Size: 10
+    Row:
+    - M
+    - K
+    - Z
+    - C
+    - O
+    - Z
+    - H
+    - Q
+    - Y
+    - A
+  - Size: 10
+    Row:
+    - F
+    - Z
+    - X
+    - M
+    - D
+    - I
+    - B
+    - N
+    - W
+    - R
+  - Size: 10
+    Row:
+    - V
+    - I
+    - T
+    - I
+    - W
+    - Y
+    - R
+    - M
+    - C
+    - N
+  - Size: 10
+    Row:
+    - P
+    - X
+    - O
+    - X
+    - R
+    - M
+    - L
+    - E
+    - N
+    - Z
+  - Size: 10
+    Row:
+    - E
+    - D
+    - Y
+    - M
+    - B
+    - W
+    - G
+    - Y
+    - R
+    - F
   SearchWords:
   - Word: PAI
   - Word: AMIGO
