@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -78,7 +79,6 @@ public class WordChecker : MonoBehaviour
         }
         else if (_assignedPoints == 1)
         {
-
             _correctSquareList.Add(SquareIndex);
             _currentRay = SelectRay(_rayStartPosition, squarePosition);
             GameEvents.SelectSquareMethod(squarePosition);
