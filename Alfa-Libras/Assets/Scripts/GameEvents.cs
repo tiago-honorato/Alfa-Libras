@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public static class GameEvents
 {
@@ -64,4 +65,18 @@ public static class GameEvents
             OnClearSelection();
         }
     }
+
+    //**************************************
+
+    public delegate void CorrectWord(string word, List<int> squareIndexes);
+    public static event CorrectWord OnCorrectWord;
+
+    public static void CorrectWordMethod(string word, List<int> squareIndexes)
+    {
+        if (OnCorrectWord != null)
+        {
+            OnCorrectWord(word, squareIndexes);
+        }
+    }
+
 }

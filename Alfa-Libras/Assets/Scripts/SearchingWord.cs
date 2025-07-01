@@ -1,16 +1,51 @@
 using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
+using System.Collections.Generic;
 
 public class SearchingWord : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    public Text displayedText;
+    public Image crossLine;
+
+    private string _word;
+
     void Start()
     {
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        
+
+        GameEvents.OnCorrectWord += CorrectWord;
+
     }
+
+    private void OnDisable()
+    {
+
+        GameEvents.OnCorrectWord -= CorrectWord;
+
+    }
+
+    public void SetWord(string word)
+    {
+        _word = word;
+        displayedText.text = word;
+    }
+
+    private void CorrectWord(string word, List<int> squareIndexes)
+    {
+
+        if (word == _word)
+        {
+
+            crossLine.gameObject.SetActive(true);
+            
+        }
+
+    }
+
 }
