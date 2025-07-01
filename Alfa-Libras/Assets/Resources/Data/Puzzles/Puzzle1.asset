@@ -18,124 +18,124 @@ MonoBehaviour:
   Board:
   - Size: 10
     Row:
-    - P
-    - F
-    - T
-    - K
-    - V
-    - O
-    - R
-    - Z
-    - H
-    - K
-  - Size: 10
-    Row:
-    - J
-    - P
-    - A
-    - I
-    - J
-    - A
-    - M
-    - Q
-    - E
-    - P
-  - Size: 10
-    Row:
-    - B
-    - B
-    - M
-    - I
-    - P
-    - M
-    - T
-    - S
-    - X
-    - L
-  - Size: 10
-    Row:
     - C
-    - R
-    - C
-    - G
-    - O
-    - I
-    - V
+    - T
+    - B
     - Y
-    - A
-    - B
-  - Size: 10
-    Row:
-    - C
-    - C
-    - O
-    - U
-    - K
-    - G
+    - Y
+    - T
     - W
-    - F
-    - G
-    - P
-  - Size: 10
-    Row:
-    - B
-    - C
-    - C
-    - H
-    - B
-    - O
-    - K
-    - V
-    - O
+    - Q
+    - Z
     - D
   - Size: 10
     Row:
-    - L
-    - E
-    - T
-    - N
-    - T
-    - M
+    - I
+    - P
+    - A
+    - I
     - S
-    - O
-    - N
     - Z
+    - P
+    - M
+    - H
+    - J
   - Size: 10
     Row:
-    - J
-    - B
+    - W
+    - L
+    - M
+    - G
     - A
-    - M
-    - M
-    - M
+    - U
+    - D
+    - B
+    - E
+    - J
+  - Size: 10
+    Row:
+    - N
+    - E
+    - I
+    - U
+    - N
+    - O
+    - Z
+    - G
+    - X
+    - B
+  - Size: 10
+    Row:
+    - Y
+    - L
+    - G
+    - V
+    - J
+    - X
+    - F
+    - D
+    - A
+    - E
+  - Size: 10
+    Row:
+    - H
+    - Q
+    - O
+    - C
+    - T
+    - A
+    - L
+    - B
+    - G
+    - P
+  - Size: 10
+    Row:
+    - D
+    - J
+    - I
+    - T
+    - P
+    - I
+    - Y
+    - X
+    - O
+    - P
+  - Size: 10
+    Row:
+    - R
+    - Y
+    - Z
+    - E
+    - O
+    - A
     - P
     - L
-    - O
-    - H
+    - N
+    - P
   - Size: 10
     Row:
-    - Q
-    - M
-    - L
-    - M
-    - J
-    - F
-    - I
-    - Q
-    - J
-    - I
-  - Size: 10
-    Row:
-    - J
-    - B
-    - I
-    - C
-    - K
     - S
+    - T
+    - Y
+    - L
+    - W
+    - X
+    - G
+    - W
     - O
-    - O
-    - E
+    - P
+  - Size: 10
+    Row:
+    - Y
+    - P
+    - K
+    - W
+    - J
     - C
+    - C
+    - N
+    - P
+    - F
   SearchWords:
   - Word: PAI
   - Word: AMIGO
