@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameData: {fileID: 11400000, guid: daa1da23781fec14199ff521d424690e, type: 2}
-  GameLevelData: {fileID: 11400000, guid: 47400206fc575cd418c7dadcedfe7f4c, type: 2}
+  levelData: {fileID: 11400000, guid: 47400206fc575cd418c7dadcedfe7f4c, type: 2}
   categoryText: {fileID: 3989382006342190846}
   progressBarFiling: {fileID: 2633831992174143104}
 --- !u!1 &5714788966208684207

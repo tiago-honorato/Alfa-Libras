@@ -17,6 +17,7 @@ MonoBehaviour:
     boardData:
     - {fileID: 11400000, guid: 531b9eb2aa877e343ad408666cdd5b3d, type: 2}
     - {fileID: 11400000, guid: 5cf3f27f872b2c94ebdadf1d3ea362cb, type: 2}
+    - {fileID: 11400000, guid: 8440d2dcf794ec545b35ac9944e791a4, type: 2}
   - categoryName: Animals
     boardData:
     - {fileID: 11400000, guid: 793a3bfd1f07982468aeb7bb2c8ff33a, type: 2}

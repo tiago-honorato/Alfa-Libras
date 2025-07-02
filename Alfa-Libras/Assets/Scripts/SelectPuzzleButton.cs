@@ -35,7 +35,7 @@ public class SelectPuzzleButton : MonoBehaviour
 
     }
 
-    private void UpdateButtonInformation()
+    private void UpdateButtonInformation() 
     {
 
         var currentIndex = -1;
@@ -58,7 +58,7 @@ public class SelectPuzzleButton : MonoBehaviour
             }
         }
 
-        if (currentIndex == -1)
+        if (currentIndex == -1) 
             _levelLocked = true;
 
         categoryText.text = _levelLocked ? string.Empty : (currentIndex.ToString() + "/" + totalBoards.ToString());
