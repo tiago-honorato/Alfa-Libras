@@ -29,6 +29,8 @@ public class WordChecker : MonoBehaviour
 
         GameEvents.OnCheckSquare += SquareSelected;
         GameEvents.OnClearSelection += ClearSelection;
+        GameEvents.OnLoadNextLevel += LoadNextGameLevel;
+
 
     }
 
@@ -37,7 +39,12 @@ public class WordChecker : MonoBehaviour
 
         GameEvents.OnCheckSquare -= SquareSelected;
         GameEvents.OnClearSelection -= ClearSelection;
+        GameEvents.OnLoadNextLevel -= LoadNextGameLevel;
+    }
 
+    private void LoadNextGameLevel()
+    {
+        SceneManager.LoadScene("GameScene");
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -110,6 +117,7 @@ public class WordChecker : MonoBehaviour
             if (_word == searchingWord.Word)
             {
                 GameEvents.CorrectWordMethod(_word, _correctSquareList);
+                _completedWords++;
                 _word = string.Empty;
                 _correctSquareList.Clear();
                 CheckBoardCompleted();

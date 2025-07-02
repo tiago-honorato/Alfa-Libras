@@ -13,129 +13,57 @@ MonoBehaviour:
   m_Name: Food1
   m_EditorClassIdentifier: 
   timeInSeconds: 0
-  Columns: 10
-  Rows: 10
+  Columns: 6
+  Rows: 6
   Board:
-  - Size: 10
+  - Size: 6
     Row:
-    - Y
     - C
-    - D
-    - E
-    - B
-    - H
+    - M
+    - T
+    - Y
+    - N
+    - F
+  - Size: 6
+    Row:
+    - F
+    - Z
+    - V
+    - I
     - P
     - I
-    - Y
-    - W
-  - Size: 10
+  - Size: 6
     Row:
-    - V
-    - P
-    - D
-    - T
-    - B
+    - U
+    - S
     - J
+    - A
     - I
-    - A
-    - Z
-    - A
-  - Size: 10
-    Row:
-    - V
-    - W
-    - A
-    - Y
-    - B
-    - X
-    - Z
-    - Y
-    - Y
-    - C
-  - Size: 10
-    Row:
-    - H
-    - C
-    - T
-    - S
-    - O
-    - Y
-    - Z
-    - U
-    - T
-    - S
-  - Size: 10
+    - G
+  - Size: 6
     Row:
     - L
-    - Z
-    - U
-    - A
-    - T
-    - W
-    - A
-    - X
-    - R
-    - V
-  - Size: 10
-    Row:
-    - P
-    - U
-    - T
-    - E
-    - G
-    - A
-    - Y
-    - G
     - I
-    - G
-  - Size: 10
-    Row:
-    - F
-    - V
-    - O
+    - S
     - A
-    - B
+    - Z
     - C
-    - V
-    - D
-    - W
-    - U
-  - Size: 10
+  - Size: 6
     Row:
-    - V
-    - V
-    - B
-    - R
-    - E
-    - A
-    - D
-    - R
-    - B
-    - F
-  - Size: 10
-    Row:
-    - I
-    - I
-    - B
-    - G
-    - F
-    - V
-    - V
-    - Z
-    - H
-    - Q
-  - Size: 10
-    Row:
-    - N
-    - H
-    - N
     - K
-    - F
-    - H
-    - L
-    - C
-    - W
+    - T
+    - K
     - V
+    - Z
+    - L
+  - Size: 6
+    Row:
+    - A
+    - B
+    - R
+    - E
+    - A
+    - D
   SearchWords:
   - Word: BREAD
   - Word: PIZZA

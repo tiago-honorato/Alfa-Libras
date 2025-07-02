@@ -105,4 +105,17 @@ public static class GameEvents
         }
     }
 
+    //**************************************
+
+    public delegate void LoadNextLevel();
+    public static event LoadNextLevel OnLoadNextLevel;
+
+    public static void LoadNextLevelMethod()
+    {
+        if (OnLoadNextLevel != null)
+        {
+            OnLoadNextLevel();
+        }
+    }
+
 }
