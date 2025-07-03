@@ -18,7 +18,7 @@ MonoBehaviour:
   Board:
   - Size: 5
     Row:
-    - M
+    - Y
     - T
     - C
     - H
@@ -50,6 +50,6 @@ MonoBehaviour:
     - V
     - E
     - P
-    - D
+    - Z
   SearchWords:
   - Word: CARNE

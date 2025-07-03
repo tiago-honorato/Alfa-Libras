@@ -18,7 +18,7 @@ MonoBehaviour:
   Board:
   - Size: 7
     Row:
-    - T
+    - Y
     - O
     - M
     - A
@@ -27,19 +27,19 @@ MonoBehaviour:
     - O
   - Size: 7
     Row:
-    - R
-    - W
-    - A
-    - B
+    - T
     - O
+    - M
     - A
+    - T
+    - E
     - C
   - Size: 7
     Row:
     - I
     - S
-    - N
     - A
+    - B
     - F
     - P
     - O
@@ -47,8 +47,8 @@ MonoBehaviour:
     Row:
     - W
     - K
-    - G
-    - C
+    - N
+    - A
     - W
     - N
     - X
@@ -56,8 +56,8 @@ MonoBehaviour:
     Row:
     - L
     - C
-    - A
-    - A
+    - G
+    - C
     - O
     - E
     - L
@@ -65,8 +65,8 @@ MonoBehaviour:
     Row:
     - E
     - P
-    - H
-    - X
+    - A
+    - A
     - G
     - X
     - O
@@ -75,10 +75,10 @@ MonoBehaviour:
     - D
     - V
     - B
-    - I
+    - X
     - B
     - S
-    - O
+    - B
   SearchWords:
   - Word: TOMATE
   - Word: ABACAXI

@@ -18,53 +18,53 @@ MonoBehaviour:
   Board:
   - Size: 6
     Row:
-    - C
-    - M
-    - T
     - Y
-    - N
-    - F
-  - Size: 6
-    Row:
-    - F
-    - Z
-    - V
-    - I
     - P
-    - I
-  - Size: 6
-    Row:
+    - N
     - U
-    - S
-    - J
-    - A
-    - I
-    - G
-  - Size: 6
-    Row:
-    - L
-    - I
-    - S
-    - A
     - Z
-    - C
-  - Size: 6
-    Row:
-    - K
-    - T
-    - K
-    - V
-    - Z
-    - L
-  - Size: 6
-    Row:
-    - A
     - B
-    - R
+  - Size: 6
+    Row:
+    - F
+    - I
+    - B
+    - L
+    - Q
+    - O
+  - Size: 6
+    Row:
+    - S
+    - Z
+    - U
+    - G
+    - K
+    - L
+  - Size: 6
+    Row:
+    - G
+    - Z
+    - X
     - E
+    - C
+    - O
+  - Size: 6
+    Row:
+    - I
     - A
-    - D
+    - R
+    - R
+    - O
+    - Z
+  - Size: 6
+    Row:
+    - T
+    - A
+    - P
+    - S
+    - I
+    - B
   SearchWords:
-  - Word: BREAD
+  - Word: BOLO
   - Word: PIZZA
-  - Word: PASTA
+  - Word: ARROZ

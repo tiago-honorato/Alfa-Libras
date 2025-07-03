@@ -18,29 +18,29 @@ MonoBehaviour:
   Board:
   - Size: 5
     Row:
-    - Q
-    - Z
+    - Y
+    - V
     - C
     - I
     - I
   - Size: 5
     Row:
-    - U
-    - Q
+    - G
     - A
-    - J
+    - T
+    - O
     - X
   - Size: 5
     Row:
-    - Y
-    - A
+    - B
+    - C
     - T
     - D
     - X
   - Size: 5
     Row:
     - T
-    - L
+    - A
     - H
     - O
     - L
@@ -52,5 +52,5 @@ MonoBehaviour:
     - G
     - A
   SearchWords:
-  - Word: CAT
-  - Word: DOG
+  - Word: VACA
+  - Word: GATO
