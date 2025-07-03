@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdd0f47a08420344b8357c3f0ddbba68, type: 3}
   m_Name: Food3
   m_EditorClassIdentifier: 
-  timeInSeconds: 0
+  timeInSeconds: 120
   Columns: 7
   Rows: 7
   Board:

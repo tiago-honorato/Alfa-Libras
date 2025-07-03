@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 37
+  controlID: 102
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -326,7 +326,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Resources/Data/Puzzles/Food
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -336,16 +336,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Resources/Data/Puzzles/Food
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Math\Documents\AlphaLibras Projeto\Alfa-Libras\Alfa-Libras
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 210.80002}
-    m_SelectedIDs: a4b20000
-    m_LastClickedID: 45732
-    m_ExpandedIDs: 00000000bcb10000beb10000c0b10000c2b10000c4b10000
+    scrollPos: {x: 0, y: 137.80014}
+    m_SelectedIDs: f6bc0000
+    m_LastClickedID: 48374
+    m_ExpandedIDs: 0000000050b0000052b0000054b0000056b0000058b00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -374,7 +374,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000bcb10000beb10000c0b10000c2b10000c4b10000
+    m_ExpandedIDs: 0000000050b0000052b0000054b0000056b0000058b00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -522,7 +522,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8cb8feffeec4feff1ecefeffc2cefeff62cffeffc8e3feff68e4feff1ae6feff42f8feff0e29ffff3433ffffee35ffff0038ffffb03affffe244ffff08fbffffe4ae0000f6d6000004dd000018dd000024dd0000
+      m_ExpandedIDs: 3e5bffffdc5bffff9e6cffffe073ffffaa76ffffc677ffffe07efffff67fffffca8fffffbe9cffffda9dffffd89fffffe2a5ffffe4e9ffff38faffff0eb7000022b700002eb700009aca00009ce100004ee7000058e70000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1126,9 +1126,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.10565884, y: 1.9475857, z: -0.5487239}
+    m_Target: {x: 1.6109332, y: -1.2508503, z: 4.3062315}
     speed: 2
-    m_Value: {x: 0.59816587, y: 0.046531208, z: 90}
+    m_Value: {x: 1.6109332, y: -1.2508503, z: 4.3062315}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1178,9 +1178,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.267368
+    m_Target: 12.613314
     speed: 2
-    m_Value: 4.456647
+    m_Value: 12.613314
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1283,7 +1283,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1

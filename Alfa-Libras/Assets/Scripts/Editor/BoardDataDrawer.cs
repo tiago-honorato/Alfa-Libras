@@ -20,7 +20,7 @@ public class BoardDataDrawer : Editor
     {
         serializedObject.Update();
 
-        GameDataInstance.timeInSeconds -= EditorGUILayout.FloatField("Max Game Time (in Seconds)", GameDataInstance.timeInSeconds);
+        GameDataInstance.timeInSeconds = EditorGUILayout.FloatField("Max Game Time (in Seconds)", GameDataInstance.timeInSeconds);
 
         DrawColumnsRowsInputFields();
         EditorGUILayout.Space();
