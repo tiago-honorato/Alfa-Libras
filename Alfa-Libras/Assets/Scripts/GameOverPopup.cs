@@ -5,11 +5,11 @@ public class GameOverPopup : MonoBehaviour
 {
 
     public GameObject gameOverPopup;
-    public GameObject continuegameButton;
+    //public GameObject continuegameButton;
 
     void Start()
     {
-        continuegameButton.GetComponent<Button>().interactable = false;
+        //continuegameButton.GetComponent<Button>().interactable = false;
         gameOverPopup.SetActive(false);
 
         GameEvents.OnGameOver += ShowGameOverPopup;
@@ -23,6 +23,6 @@ public class GameOverPopup : MonoBehaviour
     private void ShowGameOverPopup()
     {
         gameOverPopup.SetActive(true);
-        continuegameButton.GetComponent<Button>().interactable = false;
+        //continuegameButton.GetComponent<Button>().interactable = false;
     }
 }
