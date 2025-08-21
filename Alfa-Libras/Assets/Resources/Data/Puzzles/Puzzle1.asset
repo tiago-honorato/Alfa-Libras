@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd0f47a08420344b8357c3f0ddbba68, type: 3}
+  m_Name: Puzzle1
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Columns: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - C
+    - T
+    - B
+    - Y
+    - Y
+    - T
+    - W
+    - Q
+    - Z
+    - D
+  - Size: 10
+    Row:
+    - I
+    - P
+    - A
+    - I
+    - S
+    - Z
+    - P
+    - M
+    - H
+    - J
+  - Size: 10
+    Row:
+    - W
+    - L
+    - M
+    - G
+    - A
+    - U
+    - D
+    - B
+    - E
+    - J
+  - Size: 10
+    Row:
+    - N
+    - E
+    - I
+    - U
+    - N
+    - O
+    - Z
+    - G
+    - X
+    - B
+  - Size: 10
+    Row:
+    - Y
+    - L
+    - G
+    - V
+    - J
+    - X
+    - F
+    - D
+    - A
+    - E
+  - Size: 10
+    Row:
+    - H
+    - Q
+    - O
+    - C
+    - T
+    - A
+    - L
+    - B
+    - G
+    - P
+  - Size: 10
+    Row:
+    - D
+    - J
+    - I
+    - T
+    - P
+    - I
+    - Y
+    - X
+    - O
+    - P
+  - Size: 10
+    Row:
+    - R
+    - Y
+    - Z
+    - E
+    - O
+    - A
+    - P
+    - L
+    - N
+    - P
+  - Size: 10
+    Row:
+    - S
+    - T
+    - Y
+    - L
+    - W
+    - X
+    - G
+    - W
+    - O
+    - P
+  - Size: 10
+    Row:
+    - Y
+    - P
+    - K
+    - W
+    - J
+    - C
+    - C
+    - N
+    - P
+    - F
+  SearchWords:
+  - Word: PAI
+  - Word: AMIGO
+  - Word: TESTE
+  - Word: OCTAL
+  - Word: HEXAGONO

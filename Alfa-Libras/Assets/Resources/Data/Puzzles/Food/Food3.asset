@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd0f47a08420344b8357c3f0ddbba68, type: 3}
+  m_Name: Food3
+  m_EditorClassIdentifier: 
+  timeInSeconds: 120
+  Columns: 7
+  Rows: 7
+  Board:
+  - Size: 7
+    Row:
+    - T
+    - O
+    - M
+    - A
+    - T
+    - E
+    - O
+  - Size: 7
+    Row:
+    - R
+    - W
+    - A
+    - B
+    - O
+    - A
+    - C
+  - Size: 7
+    Row:
+    - I
+    - S
+    - N
+    - A
+    - F
+    - P
+    - O
+  - Size: 7
+    Row:
+    - W
+    - K
+    - G
+    - C
+    - W
+    - N
+    - X
+  - Size: 7
+    Row:
+    - L
+    - C
+    - A
+    - A
+    - O
+    - E
+    - L
+  - Size: 7
+    Row:
+    - E
+    - P
+    - H
+    - X
+    - G
+    - X
+    - O
+  - Size: 7
+    Row:
+    - D
+    - V
+    - B
+    - I
+    - B
+    - S
+    - O
+  SearchWords:
+  - Word: TOMATE
+  - Word: ABACAXI
+  - Word: MANGA
