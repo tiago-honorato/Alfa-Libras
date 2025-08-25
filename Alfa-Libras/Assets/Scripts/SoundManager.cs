@@ -10,7 +10,7 @@ public class SoundManager : MonoBehaviour
     private AudioSource _audioSource;
     private void Awake()
     {
-        if (instance = null)
+        if (instance == null)
         {
 
             instance = this;
@@ -51,6 +51,11 @@ public class SoundManager : MonoBehaviour
     {
         _muteSoundFx = !_muteSoundFx;
         GameEvents.OnToggleSoundFXMethod();
+    }
+
+    public bool IsBackgroundMusicMuted()
+    {
+        return _muteBackgroundMusic;
     }
 
     public bool IsSoundFXMuted()
