@@ -388,6 +388,7 @@ GameObject:
   - component: {fileID: 549214619}
   - component: {fileID: 549214618}
   - component: {fileID: 549214617}
+  - component: {fileID: 549214620}
   m_Layer: 5
   m_Name: MuteBackgroundSound
   m_TagString: Untagged
@@ -458,7 +459,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 549214618}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 962287626}
+        m_TargetAssemblyTypeName: GameUtility, Assembly-CSharp
+        m_MethodName: MuteToggleBackgroundMusic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 549214620}
+        m_TargetAssemblyTypeName: SoundToggleButton, Assembly-CSharp
+        m_MethodName: ToggleButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &549214618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -497,6 +522,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 549214615}
   m_CullTransparentMesh: 1
+--- !u!114 &549214620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549214615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0dea55bfbf672c4f82df590aa3268db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  onSprite: {fileID: 6783617639331411701, guid: 122b69e45d0211f4882475230373adb1, type: 3}
+  offSprite: {fileID: -5245886550618905832, guid: ecf80ef81e059994ca918e656e9b52fa, type: 3}
+  button: {fileID: 500400679}
+  offButtonPosition: {x: -35, y: 0, z: 0}
 --- !u!1 &550114549
 GameObject:
   m_ObjectHideFlags: 0

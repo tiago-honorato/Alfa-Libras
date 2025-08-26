@@ -11,4 +11,14 @@ public class GameUtility : MonoBehaviour
 
     }
 
+    public void ExitApplication()
+    {
+        Application.Quit();
+    }
+
+    public void MuteToggleBackgroundMusic()
+    {
+        SoundManager.instance.ToggleBackgroundMusic();
+    }
+
 }
