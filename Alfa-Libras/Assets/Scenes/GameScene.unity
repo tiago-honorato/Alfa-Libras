@@ -1526,11 +1526,11 @@ RectTransform:
   - {fileID: 558342353}
   - {fileID: 1124473890}
   - {fileID: 1996921751}
+  - {fileID: 662069045}
+  - {fileID: 357135400}
   - {fileID: 1508494679}
   - {fileID: 121008148}
   - {fileID: 2039425503}
-  - {fileID: 662069045}
-  - {fileID: 357135400}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
