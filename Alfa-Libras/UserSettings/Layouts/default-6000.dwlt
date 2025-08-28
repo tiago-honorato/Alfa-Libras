@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 95
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -326,7 +326,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -336,16 +336,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Aluno\Documents\Projetos-Tiago-H\Alfa-Libras Project\Alfa-Libras\Alfa-Libras
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 24}
-    m_SelectedIDs: 90b10000
-    m_LastClickedID: 45456
-    m_ExpandedIDs: 00000000b2af0000
+    m_SelectedIDs: 92b10000
+    m_LastClickedID: 45458
+    m_ExpandedIDs: 0000000016b00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -374,7 +374,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b2af0000
+    m_ExpandedIDs: 0000000016b00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -522,7 +522,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 08fbffffeaae000004af0000
+      m_ExpandedIDs: e2b5ffffa8bbffff26d5ffff48d7ffff52d7ffff54d7ffffb4e3ffff1ee5ffff80edffffa6edffffcaedffff86f1ffff06f5ffff08fbffffeeae000008af00004ab20000bab30000e4b3000006b400007eb4000044b9000066b900008eb90000deb90000f2b90000fcb9000056bc00001cbf000036bf0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1126,9 +1126,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 1.0816541, y: -0.050834917, z: -4.202358}
+    m_Target: {x: 0.21910068, y: 1.1467757, z: -4.1041746}
     speed: 2
-    m_Value: {x: 1.0816541, y: -0.050834917, z: -4.202358}
+    m_Value: {x: 0.21910068, y: 1.1467757, z: -4.1041746}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1178,9 +1178,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.400538
+    m_Target: 3.7179904
     speed: 2
-    m_Value: 5.400538
+    m_Value: 3.7179904
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1238,7 +1238,7 @@ MonoBehaviour:
     x: 302
     y: 79
     width: 1001
-    height: 539
+    height: 545
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1293,22 +1293,22 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 1001
-      height: 518
-    m_Scale: {x: 0.26979166, y: 0.26979166}
-    m_Translation: {x: 500.5, y: 259}
+      height: 524
+    m_Scale: {x: 0.27291667, y: 0.27291667}
+    m_Translation: {x: 500.5, y: 262}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1855.1351
+      x: -1833.8931
       y: -960
-      width: 3710.2703
+      width: 3667.7861
       height: 1920
     m_MinimalGUI: 1
-  m_defaultScale: 0.26979166
-  m_LastWindowPixelSize: {x: 1001, y: 539}
+  m_defaultScale: 0.27291667
+  m_LastWindowPixelSize: {x: 1001, y: 545}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000001000000000000
