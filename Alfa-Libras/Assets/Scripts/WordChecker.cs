@@ -50,6 +50,7 @@ public class WordChecker : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        currentGameData.selectedBoardData.ClearData();
         _assignedPoints = 0;
         _completedWords = 0;
     }

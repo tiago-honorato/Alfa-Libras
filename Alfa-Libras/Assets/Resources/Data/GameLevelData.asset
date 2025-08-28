@@ -29,3 +29,9 @@ MonoBehaviour:
     boardData: []
   - categoryName: Countries
     boardData: []
+  - categoryName: Test1
+    boardData: []
+  - categoryName: Test2
+    boardData: []
+  - categoryName: Test3
+    boardData: []
