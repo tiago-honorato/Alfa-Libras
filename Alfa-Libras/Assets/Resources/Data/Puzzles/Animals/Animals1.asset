@@ -13,44 +13,63 @@ MonoBehaviour:
   m_Name: Animals1
   m_EditorClassIdentifier: 
   timeInSeconds: 120
-  Columns: 5
-  Rows: 5
+  Columns: 6
+  Rows: 6
   Board:
-  - Size: 5
+  - Size: 6
     Row:
-    - Q
-    - Z
+    - I
+    - D
+    - N
+    - A
+    - F
     - C
-    - I
-    - I
-  - Size: 5
+  - Size: 6
     Row:
-    - U
-    - Q
+    - B
+    - X
+    - K
+    - Y
+    - Z
+    - A
+  - Size: 6
+    Row:
+    - O
+    - T
+    - G
+    - V
+    - C
+    - V
+  - Size: 6
+    Row:
+    - I
+    - G
+    - T
+    - A
+    - H
+    - A
+  - Size: 6
+    Row:
+    - V
+    - V
+    - F
+    - C
+    - T
+    - L
+  - Size: 6
+    Row:
+    - K
+    - R
+    - A
     - A
     - J
-    - X
-  - Size: 5
-    Row:
-    - Y
-    - A
-    - T
-    - D
-    - X
-  - Size: 5
-    Row:
-    - T
-    - L
-    - H
     - O
-    - L
-  - Size: 5
-    Row:
-    - E
-    - E
-    - S
-    - G
-    - A
   SearchWords:
-  - Word: CAT
-  - Word: DOG
+  - Found: 0
+    Word: GATO
+  - Found: 0
+    Word: CAVALO
+  - Found: 0
+    Word: VACA
+  - Found: 0
+    Word: BOI

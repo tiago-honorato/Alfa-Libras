@@ -13,43 +13,63 @@ MonoBehaviour:
   m_Name: Food2
   m_EditorClassIdentifier: 
   timeInSeconds: 120
-  Columns: 5
-  Rows: 5
+  Columns: 6
+  Rows: 6
   Board:
-  - Size: 5
+  - Size: 6
     Row:
-    - M
-    - T
+    - S
     - C
-    - H
-    - K
-  - Size: 5
+    - X
+    - J
+    - B
+    - D
+  - Size: 6
     Row:
-    - R
-    - I
+    - V
     - A
-    - W
-    - Z
-  - Size: 5
-    Row:
-    - K
-    - T
-    - R
     - U
+    - K
     - O
-  - Size: 5
+    - N
+  - Size: 6
     Row:
+    - D
+    - R
+    - L
+    - L
     - L
     - P
-    - N
-    - T
-    - D
-  - Size: 5
+  - Size: 6
     Row:
-    - H
-    - V
-    - E
+    - Q
+    - N
+    - U
+    - A
+    - O
+    - T
+  - Size: 6
+    Row:
     - P
+    - E
+    - C
+    - C
     - D
+    - W
+  - Size: 6
+    Row:
+    - F
+    - R
+    - U
+    - T
+    - A
+    - A
   SearchWords:
-  - Word: CARNE
+  - Found: 0
+    Word: CARNE
+  - Found: 0
+    Word: BOLO
+  - Found: 0
+    Word: SALADA
+  - Found: 0
+    Word: FRUTA
