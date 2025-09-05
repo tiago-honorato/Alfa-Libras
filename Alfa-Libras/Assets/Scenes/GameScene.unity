@@ -1391,49 +1391,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 854865985}
     m_Modifications:
     - target: {fileID: 2664188174934484294, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2664188174934484294, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2664188174934484294, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 509665773}
-    - target: {fileID: 2664188174934484294, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 357135401}
-    - target: {fileID: 2664188174934484294, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2664188174934484294, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: MuteToggleSoundFX
-      objectReference: {fileID: 0}
-    - target: {fileID: 2664188174934484294, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ToggleButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 2664188174934484294, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameUtility, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 2664188174934484294, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: SoundToggleButton, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 2664188174934484294, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 2664188174934484294, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 3486325973227042225, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1467,14 +1427,6 @@ PrefabInstance:
       value: 151
       objectReference: {fileID: 0}
     - target: {fileID: 3486325973227042225, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3486325973227042225, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3486325973227042225, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1504,7 +1456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3486325973227042225, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 270
+      value: 255
       objectReference: {fileID: 0}
     - target: {fileID: 3486325973227042225, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1536,17 +1488,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3486325973227042225, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
   m_PrefabInstance: {fileID: 357135399}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &357135401 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3246900930813728862, guid: 6b4fae07e8ba35a4497d2b6d6109a066, type: 3}
-  m_PrefabInstance: {fileID: 357135399}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0dea55bfbf672c4f82df590aa3268db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &368154362
 GameObject:
   m_ObjectHideFlags: 0
@@ -2563,7 +2504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -441, y: 837}
+  m_AnchoredPosition: {x: -425, y: 835}
   m_SizeDelta: {x: 82, y: 118}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &558342354
@@ -2851,14 +2792,6 @@ PrefabInstance:
       value: 151
       objectReference: {fileID: 0}
     - target: {fileID: 2953036351105442681, guid: 95ecb7c9859b50642ad33c0743dc86de, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2953036351105442681, guid: 95ecb7c9859b50642ad33c0743dc86de, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2953036351105442681, guid: 95ecb7c9859b50642ad33c0743dc86de, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -2888,7 +2821,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2953036351105442681, guid: 95ecb7c9859b50642ad33c0743dc86de, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 430
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 2953036351105442681, guid: 95ecb7c9859b50642ad33c0743dc86de, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2914,10 +2847,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 509665773}
-    - target: {fileID: 6430870904918972603, guid: 95ecb7c9859b50642ad33c0743dc86de, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: MuteToggleBackgroundMusic
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5087,7 +5016,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -280, y: 830}
+  m_AnchoredPosition: {x: -280, y: 835}
   m_SizeDelta: {x: 577, y: 178}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1136684381
@@ -7661,8 +7590,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.8899994}
-  m_SizeDelta: {x: 977.52, y: 1816.76}
+  m_AnchoredPosition: {x: -2.17, y: 7.4}
+  m_SizeDelta: {x: 1363.66, y: 2055.39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1911800833
 MonoBehaviour:
