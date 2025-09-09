@@ -6,16 +6,6 @@ public class AlphabetToggle : MonoBehaviour
     public GameObject AlphabetPopup;
     public bool isAlphabetPopupActive = false;
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
     public void ToggleAlphabetPopup()
     {
 
