@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd0f47a08420344b8357c3f0ddbba68, type: 3}
+  m_Name: Food4
+  m_EditorClassIdentifier: 
+  timeInSeconds: 120
+  Columns: 6
+  Rows: 6
+  Board:
+  - Size: 6
+    Row:
+    - S
+    - O
+    - A
+    - C
+    - I
+    - P
+  - Size: 6
+    Row:
+    - N
+    - U
+    - O
+    - E
+    - C
+    - S
+  - Size: 6
+    Row:
+    - M
+    - J
+    - C
+    - B
+    - E
+    - O
+  - Size: 6
+    Row:
+    - H
+    - E
+    - U
+    - O
+    - V
+    - O
+  - Size: 6
+    Row:
+    - Y
+    - F
+    - D
+    - L
+    - V
+    - L
+  - Size: 6
+    Row:
+    - B
+    - A
+    - T
+    - A
+    - T
+    - A
+  SearchWords:
+  - Found: 1
+    Word: BATATA
+  - Found: 1
+    Word: OVO
+  - Found: 1
+    Word: CEBOLA
+  - Found: 1
+    Word: SUCO

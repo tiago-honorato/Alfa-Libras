@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd0f47a08420344b8357c3f0ddbba68, type: 3}
+  m_Name: Animals2
+  m_EditorClassIdentifier: 
+  timeInSeconds: 120
+  Columns: 6
+  Rows: 6
+  Board:
+  - Size: 6
+    Row:
+    - C
+    - Y
+    - V
+    - B
+    - S
+    - M
+  - Size: 6
+    Row:
+    - O
+    - A
+    - P
+    - I
+    - O
+    - A
+  - Size: 6
+    Row:
+    - B
+    - N
+    - M
+    - D
+    - X
+    - C
+  - Size: 6
+    Row:
+    - R
+    - F
+    - I
+    - E
+    - H
+    - A
+  - Size: 6
+    Row:
+    - A
+    - X
+    - D
+    - H
+    - L
+    - C
+  - Size: 6
+    Row:
+    - Q
+    - Q
+    - R
+    - A
+    - T
+    - O
+  SearchWords:
+  - Found: 0
+    Word: MACACO
+  - Found: 0
+    Word: CAMELO
+  - Found: 0
+    Word: RATO
+  - Found: 0
+    Word: COBRA
