@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd0f47a08420344b8357c3f0ddbba68, type: 3}
+  m_Name: Color3
+  m_EditorClassIdentifier: 
+  timeInSeconds: 120
+  Columns: 7
+  Rows: 7
+  Board:
+  - Size: 7
+    Row:
+    - L
+    - H
+    - V
+    - G
+    - M
+    - J
+    - M
+  - Size: 7
+    Row:
+    - A
+    - V
+    - I
+    - U
+    - U
+    - U
+    - A
+  - Size: 7
+    Row:
+    - R
+    - R
+    - O
+    - X
+    - O
+    - Q
+    - R
+  - Size: 7
+    Row:
+    - A
+    - M
+    - L
+    - P
+    - X
+    - F
+    - R
+  - Size: 7
+    Row:
+    - N
+    - B
+    - E
+    - G
+    - E
+    - R
+    - O
+  - Size: 7
+    Row:
+    - J
+    - J
+    - T
+    - J
+    - I
+    - L
+    - M
+  - Size: 7
+    Row:
+    - A
+    - M
+    - A
+    - R
+    - E
+    - L
+    - O
+  SearchWords:
+  - Found: 0
+    Word: AMARELO
+  - Found: 0
+    Word: VIOLETA
+  - Found: 0
+    Word: BEGE
+  - Found: 0
+    Word: MARROM
+  - Found: 0
+    Word: ROXO
+  - Found: 0
+    Word: LARANJA

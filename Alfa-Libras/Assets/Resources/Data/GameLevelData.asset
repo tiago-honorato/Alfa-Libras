@@ -27,10 +27,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 12bebc0074433c844a1a8e42fe9c4ac6, type: 2}
     - {fileID: 11400000, guid: b064ad7a8a1c36c45bdcb00003c51c49, type: 2}
     - {fileID: 11400000, guid: c4d1c62ca9d37ea45b91de3ba3b79a12, type: 2}
-  - categoryName: Sport
-    boardData: []
-  - categoryName: Hobbies
-    boardData: []
+  - categoryName: Colors
+    boardData:
+    - {fileID: 11400000, guid: 25b368ab1bf28194e9cce7df777546a4, type: 2}
+    - {fileID: 11400000, guid: 902086b8a82a3764b8f73bb38bf91f96, type: 2}
+    - {fileID: 11400000, guid: 4d20afafd7dbaed4ba833472abfb686c, type: 2}
+  - categoryName: Greetings
+    boardData:
+    - {fileID: 11400000, guid: 21c3bd4096d63f348ac4777992f56b8c, type: 2}
+    - {fileID: 11400000, guid: 383f439b028dcea4daef774d2ac60a0e, type: 2}
+    - {fileID: 11400000, guid: b481a09a31c80644d87ea956ae07e6a7, type: 2}
   - categoryName: Work
     boardData: []
   - categoryName: Countries
