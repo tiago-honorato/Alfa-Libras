@@ -10,83 +10,66 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdd0f47a08420344b8357c3f0ddbba68, type: 3}
-  m_Name: Color3
+  m_Name: Family3
   m_EditorClassIdentifier: 
   timeInSeconds: 120
-  Columns: 7
-  Rows: 7
+  Columns: 5
+  Rows: 8
   Board:
-  - Size: 7
-    Row:
-    - M
-    - A
-    - R
-    - R
-    - O
-    - M
-    - L
-  - Size: 7
-    Row:
-    - K
-    - M
-    - M
-    - N
-    - B
-    - Z
-    - A
-  - Size: 7
-    Row:
-    - M
-    - A
-    - O
-    - I
-    - A
-    - O
-    - R
-  - Size: 7
-    Row:
-    - Z
-    - R
-    - V
-    - V
-    - H
-    - N
-    - A
-  - Size: 7
-    Row:
-    - B
-    - E
-    - G
-    - E
-    - K
-    - I
-    - N
-  - Size: 7
+  - Size: 8
     Row:
     - U
-    - L
-    - B
+    - Q
+    - S
+    - P
     - Y
-    - C
-    - J
-    - J
-  - Size: 7
+    - I
+    - L
+    - Y
+  - Size: 8
     Row:
-    - R
+    - S
     - O
-    - X
+    - B
+    - R
+    - I
+    - N
+    - H
+    - A
+  - Size: 8
+    Row:
+    - U
+    - K
+    - K
+    - I
+    - Y
+    - B
+    - F
+    - V
+  - Size: 8
+    Row:
+    - M
     - O
     - J
+    - M
+    - J
+    - W
     - X
-    - A
+    - O
+  - Size: 8
+    Row:
+    - W
+    - Z
+    - H
+    - O
+    - L
+    - U
+    - E
+    - I
   SearchWords:
   - Found: 1
-    Word: AMARELO
+    Word: SOBRINHA
   - Found: 1
-    Word: BEGE
+    Word: PRIMO
   - Found: 1
-    Word: MARROM
-  - Found: 1
-    Word: ROXO
-  - Found: 1
-    Word: LARANJA
+    Word: AVO

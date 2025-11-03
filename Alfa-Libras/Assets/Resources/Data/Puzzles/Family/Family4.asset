@@ -10,83 +10,61 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdd0f47a08420344b8357c3f0ddbba68, type: 3}
-  m_Name: Color3
+  m_Name: Family4
   m_EditorClassIdentifier: 
   timeInSeconds: 120
-  Columns: 7
+  Columns: 5
   Rows: 7
   Board:
   - Size: 7
     Row:
-    - M
     - A
-    - R
-    - R
-    - O
-    - M
-    - L
-  - Size: 7
-    Row:
-    - K
-    - M
-    - M
-    - N
-    - B
     - Z
-    - A
-  - Size: 7
-    Row:
-    - M
-    - A
-    - O
-    - I
-    - A
-    - O
-    - R
-  - Size: 7
-    Row:
-    - Z
-    - R
-    - V
-    - V
-    - H
-    - N
-    - A
-  - Size: 7
-    Row:
-    - B
-    - E
     - G
-    - E
-    - K
-    - I
+    - W
     - N
+    - I
+    - F
   - Size: 7
     Row:
-    - U
-    - L
+    - T
+    - V
+    - D
+    - M
+    - E
+    - P
+    - E
+  - Size: 7
+    Row:
     - B
-    - Y
-    - C
-    - J
-    - J
+    - V
+    - O
+    - X
+    - T
+    - X
+    - Z
   - Size: 7
     Row:
-    - R
-    - O
-    - X
-    - O
-    - J
-    - X
+    - C
+    - U
+    - N
+    - H
     - A
+    - D
+    - O
+  - Size: 7
+    Row:
+    - Q
+    - P
+    - L
+    - L
+    - N
+    - B
+    - V
   SearchWords:
   - Found: 1
-    Word: AMARELO
+    Word: AVO
   - Found: 1
-    Word: BEGE
+    Word: CUNHADO
   - Found: 1
-    Word: MARROM
-  - Found: 1
-    Word: ROXO
-  - Found: 1
-    Word: LARANJA
+    Word: NETA

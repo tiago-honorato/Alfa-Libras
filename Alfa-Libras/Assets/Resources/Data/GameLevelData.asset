@@ -41,6 +41,8 @@ MonoBehaviour:
     boardData:
     - {fileID: 11400000, guid: f47280a7bf7c4c245a8787617166bca0, type: 2}
     - {fileID: 11400000, guid: 7658284f23e142445a348a3424e0b418, type: 2}
+    - {fileID: 11400000, guid: 4fb7c119297536f48a19c4a9d2d11f43, type: 2}
+    - {fileID: 11400000, guid: e4d34023b1a391841b07f472f6dd239e, type: 2}
   - categoryName: Countries
     boardData: []
   - categoryName: Test1

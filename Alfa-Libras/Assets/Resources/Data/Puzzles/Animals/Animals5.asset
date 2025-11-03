@@ -18,58 +18,58 @@ MonoBehaviour:
   Board:
   - Size: 6
     Row:
-    - P
-    - L
-    - H
-    - F
-    - X
-    - Z
-  - Size: 6
-    Row:
     - A
-    - N
+    - A
     - Z
-    - O
-    - P
-    - E
-  - Size: 6
-    Row:
-    - N
-    - E
-    - K
-    - C
+    - A
     - R
-    - B
-  - Size: 6
-    Row:
-    - D
-    - I
-    - Z
-    - A
-    - C
-    - R
-  - Size: 6
-    Row:
-    - A
-    - B
     - E
-    - L
-    - H
-    - A
   - Size: 6
     Row:
-    - I
-    - L
-    - B
+    - G
+    - R
+    - E
+    - A
     - S
+    - G
+  - Size: 6
+    Row:
+    - C
+    - A
+    - B
+    - R
+    - A
+    - R
+  - Size: 6
+    Row:
+    - H
+    - R
+    - R
+    - Q
     - P
+    - T
+  - Size: 6
+    Row:
+    - T
+    - A
+    - A
+    - H
+    - O
+    - Z
+  - Size: 6
+    Row:
+    - C
+    - M
     - L
+    - H
+    - C
+    - O
   SearchWords:
   - Found: 0
-    Word: PANDA
+    Word: CABRA
   - Found: 0
-    Word: ABELHA
+    Word: ARARA
   - Found: 0
     Word: ZEBRA
   - Found: 0
-    Word: FOCA
+    Word: SAPO

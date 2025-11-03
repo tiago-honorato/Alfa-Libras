@@ -13,44 +13,67 @@ MonoBehaviour:
   m_Name: Family2
   m_EditorClassIdentifier: 
   timeInSeconds: 120
-  Columns: 5
-  Rows: 5
+  Columns: 6
+  Rows: 7
   Board:
-  - Size: 5
+  - Size: 7
     Row:
+    - O
+    - T
+    - I
+    - Z
+    - G
+    - N
+    - W
+  - Size: 7
+    Row:
+    - Q
     - V
-    - C
-    - Q
-    - P
-    - G
-  - Size: 5
-    Row:
-    - J
-    - A
-    - J
-    - H
+    - R
     - M
-  - Size: 5
+    - F
+    - Q
+    - N
+  - Size: 7
     Row:
-    - J
-    - "\xC7"
-    - K
+    - F
+    - A
+    - M
+    - I
+    - L
+    - I
+    - A
+  - Size: 7
+    Row:
+    - Y
     - B
-    - D
-  - Size: 5
-    Row:
-    - G
     - A
-    - M
-    - E
+    - L
+    - I
+    - S
     - Q
-  - Size: 5
+  - Size: 7
     Row:
-    - C
-    - J
-    - F
-    - E
-    - F
+    - S
+    - V
+    - I
+    - H
+    - N
+    - P
+    - V
+  - Size: 7
+    Row:
+    - P
+    - T
+    - S
+    - O
+    - G
+    - R
+    - A
   SearchWords:
+  - Found: 0
+    Word: IRMA
   - Found: 1
-    Word: "CA\xC7A"
+    Word: FAMILIA
+  - Found: 1
+    Word: SOGRA

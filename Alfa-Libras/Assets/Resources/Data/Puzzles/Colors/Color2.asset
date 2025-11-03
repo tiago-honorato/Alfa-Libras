@@ -35,7 +35,7 @@ MonoBehaviour:
   - Size: 6
     Row:
     - P
-    - A
+    - C
     - C
     - X
     - F
@@ -43,7 +43,7 @@ MonoBehaviour:
   - Size: 6
     Row:
     - K
-    - N
+    - X
     - Y
     - L
     - F
@@ -69,7 +69,5 @@ MonoBehaviour:
     Word: ROSA
   - Found: 0
     Word: CINZA
-  - Found: 0
-    Word: CIANO
   - Found: 0
     Word: VINHO
