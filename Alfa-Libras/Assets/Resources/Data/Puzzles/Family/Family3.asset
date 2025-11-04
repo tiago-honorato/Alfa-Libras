@@ -35,7 +35,7 @@ MonoBehaviour:
     - I
     - N
     - H
-    - A
+    - O
   - Size: 8
     Row:
     - U
@@ -44,8 +44,8 @@ MonoBehaviour:
     - I
     - Y
     - B
-    - F
-    - V
+    - A
+    - W
   - Size: 8
     Row:
     - M
@@ -54,8 +54,8 @@ MonoBehaviour:
     - M
     - J
     - W
-    - X
-    - O
+    - V
+    - T
   - Size: 8
     Row:
     - W
@@ -64,12 +64,12 @@ MonoBehaviour:
     - O
     - L
     - U
-    - E
+    - "\xD4"
     - I
   SearchWords:
   - Found: 1
-    Word: SOBRINHA
+    Word: SOBRINHO
   - Found: 1
     Word: PRIMO
   - Found: 1
-    Word: AVO
+    Word: "AV\xD4"

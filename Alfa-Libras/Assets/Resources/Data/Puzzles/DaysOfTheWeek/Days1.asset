@@ -10,61 +10,70 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdd0f47a08420344b8357c3f0ddbba68, type: 3}
-  m_Name: Family4
+  m_Name: Days1
   m_EditorClassIdentifier: 
   timeInSeconds: 120
-  Columns: 5
+  Columns: 6
   Rows: 7
   Board:
   - Size: 7
     Row:
-    - A
-    - Z
+    - L
     - G
-    - W
-    - N
-    - I
-    - F
-  - Size: 7
-    Row:
-    - T
-    - V
-    - D
-    - M
-    - E
-    - P
-    - E
-  - Size: 7
-    Row:
+    - Q
     - B
+    - A
     - V
-    - "\xD3"
-    - X
+    - Q
+  - Size: 7
+    Row:
+    - H
     - T
-    - X
-    - Z
+    - T
+    - V
+    - K
+    - J
+    - U
   - Size: 7
     Row:
     - C
-    - U
-    - N
-    - H
-    - A
+    - F
     - D
-    - O
+    - E
+    - I
+    - U
+    - A
   - Size: 7
     Row:
-    - Q
-    - P
+    - T
+    - I
+    - Y
+    - R
+    - R
+    - X
+    - R
+  - Size: 7
+    Row:
+    - K
+    - H
+    - H
+    - I
     - L
-    - L
+    - "\xC7"
+    - T
+  - Size: 7
+    Row:
+    - S
+    - E
+    - G
+    - U
     - N
-    - B
-    - V
+    - D
+    - A
   SearchWords:
-  - Found: 1
-    Word: "AV\xD3"
-  - Found: 1
-    Word: CUNHADO
-  - Found: 1
-    Word: NETA
+  - Found: 0
+    Word: SEGUNDA
+  - Found: 0
+    Word: "TER\xC7A"
+  - Found: 0
+    Word: QUARTA

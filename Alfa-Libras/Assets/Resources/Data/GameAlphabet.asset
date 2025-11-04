@@ -122,6 +122,14 @@ MonoBehaviour:
     image: {fileID: 4290093698992924585, guid: 5aff2ce2981dbbd40b0931f802402ca3, type: 3}
   - letter: "\xC7"
     image: {fileID: 9173849396026081180, guid: 5569dace8b4853e4a84b08263110ee5c, type: 3}
+  - letter: "\xC3"
+    image: {fileID: -4320762729825082284, guid: 71744a747c2c11d4183cdce9d27c9f0f, type: 3}
+  - letter: "\xD4"
+    image: {fileID: -6841562179241214218, guid: 0a1546dcefd9fa943bf4ca3c73b294b2, type: 3}
+  - letter: "\xD3"
+    image: {fileID: 5713728210144039066, guid: 3c0275786fffd6749ada5fef768cf02a, type: 3}
+  - letter: "\xC7"
+    image: {fileID: 14378035085104614, guid: 984773f7a7b8e3f4ca8e481eb7e62a30, type: 3}
   AlphabetHighlighted:
   - letter: A
     image: {fileID: -4265146878189238408, guid: 843cd4af57c860b4781ad4cd2af5dc60, type: 3}
@@ -177,6 +185,14 @@ MonoBehaviour:
     image: {fileID: 4290093698992924585, guid: 1430d622c7245494795730d40a5c8ad5, type: 3}
   - letter: "\xC7"
     image: {fileID: 9173849396026081180, guid: 5569dace8b4853e4a84b08263110ee5c, type: 3}
+  - letter: "\xC3"
+    image: {fileID: -4320762729825082284, guid: 529bf41f42ff0514baadbd164495be58, type: 3}
+  - letter: "\xD4"
+    image: {fileID: -6841562179241214218, guid: 0822c3403afb97249a3b6c5e10218f45, type: 3}
+  - letter: "\xD3"
+    image: {fileID: 5713728210144039066, guid: 5fbe765f7da6da64886d77dccfff3ec3, type: 3}
+  - letter: "\xC7"
+    image: {fileID: 14378035085104614, guid: 72f51c6debf3b6e42bac32e5394d8b1c, type: 3}
   AlphabetWrong:
   - letter: A
     image: {fileID: -4265146878189238408, guid: 289349b0a86246942a3b2134e9bb46d8, type: 3}
@@ -232,3 +248,11 @@ MonoBehaviour:
     image: {fileID: 4290093698992924585, guid: 7db37f9f47ef17040a147e0a61f8b888, type: 3}
   - letter: "\xC7"
     image: {fileID: 9173849396026081180, guid: 5569dace8b4853e4a84b08263110ee5c, type: 3}
+  - letter: "\xC3"
+    image: {fileID: -4320762729825082284, guid: c30cd5c87e6f0874ea5565ec94542a80, type: 3}
+  - letter: "\xD4"
+    image: {fileID: -6841562179241214218, guid: c1a2e2b08f67c0246a8824c2d60295e9, type: 3}
+  - letter: "\xD3"
+    image: {fileID: -6841562179241214218, guid: c1a2e2b08f67c0246a8824c2d60295e9, type: 3}
+  - letter: "\xC7"
+    image: {fileID: 14378035085104614, guid: 13aee6a41ece6974fb282922dc057ba2, type: 3}

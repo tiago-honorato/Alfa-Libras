@@ -10,61 +10,72 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdd0f47a08420344b8357c3f0ddbba68, type: 3}
-  m_Name: Family4
+  m_Name: Days2
   m_EditorClassIdentifier: 
   timeInSeconds: 120
-  Columns: 5
+  Columns: 6
   Rows: 7
   Board:
   - Size: 7
     Row:
-    - A
-    - Z
-    - G
-    - W
-    - N
-    - I
-    - F
+    - ' '
+    - 
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - S
   - Size: 7
     Row:
-    - T
-    - V
-    - D
-    - M
-    - E
-    - P
-    - E
-  - Size: 7
-    Row:
-    - B
-    - V
-    - "\xD3"
-    - X
-    - T
-    - X
-    - Z
-  - Size: 7
-    Row:
-    - C
+    - 
+    - Q
     - U
+    - I
     - N
-    - H
+    - T
     - A
+  - Size: 7
+    Row:
+    - ' '
+    - 
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - B
+  - Size: 7
+    Row:
+    - ' '
+    - 
+    - S
+    - E
+    - X
+    - T
+    - A
+  - Size: 7
+    Row:
+    - ' '
+    - 
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - D
+  - Size: 7
+    Row:
     - D
     - O
-  - Size: 7
-    Row:
-    - Q
-    - P
-    - L
-    - L
+    - M
+    - I
     - N
-    - B
-    - V
+    - G
+    - O
   SearchWords:
-  - Found: 1
-    Word: "AV\xD3"
-  - Found: 1
-    Word: CUNHADO
-  - Found: 1
-    Word: NETA
+  - Found: 0
+    Word: QUINTA
+  - Found: 0
+    Word: SEXTA
+  - Found: 0
+    Word: SABADO
+  - Found: 0
+    Word: DOMINGO

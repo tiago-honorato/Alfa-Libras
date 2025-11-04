@@ -21,8 +21,8 @@ MonoBehaviour:
     - Z
     - S
     - P
-    - Z
-    - R
+    - A
+    - I
     - N
   - Size: 6
     Row:
@@ -44,7 +44,7 @@ MonoBehaviour:
     Row:
     - F
     - N
-    - P
+    - L
     - O
     - M
     - M
@@ -52,10 +52,10 @@ MonoBehaviour:
     Row:
     - Y
     - M
-    - A
+    - "\xC3"
     - E
     - M
-    - A
+    - "\xC3"
   - Size: 6
     Row:
     - Z
@@ -65,11 +65,11 @@ MonoBehaviour:
     - H
     - O
   SearchWords:
-  - Found: 0
+  - Found: 1
     Word: PAI
-  - Found: 0
-    Word: MAE
-  - Found: 0
+  - Found: 1
+    Word: "M\xC3E"
+  - Found: 1
     Word: FILHO
-  - Found: 0
-    Word: IRMAO
+  - Found: 1
+    Word: "IRM\xC3O"
