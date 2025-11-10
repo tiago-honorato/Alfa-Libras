@@ -23,7 +23,7 @@ MonoBehaviour:
     - X
     - J
     - B
-    - D
+    - "\xC9"
   - Size: 6
     Row:
     - V
@@ -50,7 +50,7 @@ MonoBehaviour:
     - T
   - Size: 6
     Row:
-    - P
+    - "\xD4"
     - E
     - C
     - C

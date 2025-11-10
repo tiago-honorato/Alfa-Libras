@@ -49,7 +49,7 @@ MonoBehaviour:
     - W
     - V
     - V
-    - U
+    - "\xDA"
     - X
     - O
   - Size: 7

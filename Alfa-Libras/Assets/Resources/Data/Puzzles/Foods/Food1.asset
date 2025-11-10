@@ -19,7 +19,7 @@ MonoBehaviour:
   - Size: 6
     Row:
     - S
-    - W
+    - "\xC9"
     - E
     - F
     - P
@@ -62,14 +62,14 @@ MonoBehaviour:
     - G
     - O
     - P
-    - F
+    - "\xC1"
     - E
   SearchWords:
-  - Found: 0
+  - Found: 1
     Word: ARROZ
-  - Found: 0
+  - Found: 1
     Word: PIZZA
-  - Found: 0
+  - Found: 1
     Word: PEIXE
-  - Found: 0
+  - Found: 1
     Word: SOPA

@@ -28,7 +28,7 @@ MonoBehaviour:
   - Size: 7
     Row:
     - Z
-    - P
+    - "\xC9"
     - T
     - B
     - R
@@ -69,7 +69,7 @@ MonoBehaviour:
     - X
     - Y
     - A
-    - K
+    - "\xD5"
   - Size: 7
     Row:
     - A
@@ -80,11 +80,11 @@ MonoBehaviour:
     - R
     - O
   SearchWords:
-  - Found: 0
+  - Found: 1
     Word: TOMATE
-  - Found: 0
+  - Found: 1
     Word: ABACAXI
-  - Found: 0
+  - Found: 1
     Word: MANGA
   - Found: 0
     Word: UVA

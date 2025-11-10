@@ -130,6 +130,14 @@ MonoBehaviour:
     image: {fileID: 5713728210144039066, guid: 3c0275786fffd6749ada5fef768cf02a, type: 3}
   - letter: "\xC7"
     image: {fileID: 14378035085104614, guid: 984773f7a7b8e3f4ca8e481eb7e62a30, type: 3}
+  - letter: "\xD5"
+    image: {fileID: 8938740806255198489, guid: b2001ce3a9adf8f4bb62a95f8eabf68a, type: 3}
+  - letter: "\xC1"
+    image: {fileID: 6681869229399157063, guid: 645e2774cdea3294fbdce88154dc6c7d, type: 3}
+  - letter: "\xC9"
+    image: {fileID: -1036554751838970036, guid: ece75af4c82fe384c8d02dd7e6e58278, type: 3}
+  - letter: "\xDA"
+    image: {fileID: 6836733956319207809, guid: 75e8d9033cbced748a61702c33092195, type: 3}
   AlphabetHighlighted:
   - letter: A
     image: {fileID: -4265146878189238408, guid: 843cd4af57c860b4781ad4cd2af5dc60, type: 3}
@@ -193,6 +201,14 @@ MonoBehaviour:
     image: {fileID: 5713728210144039066, guid: 5fbe765f7da6da64886d77dccfff3ec3, type: 3}
   - letter: "\xC7"
     image: {fileID: 14378035085104614, guid: 72f51c6debf3b6e42bac32e5394d8b1c, type: 3}
+  - letter: "\xD5"
+    image: {fileID: 8938740806255198489, guid: 545bac1244834e74fb53be0f04018bd4, type: 3}
+  - letter: "\xC1"
+    image: {fileID: 6681869229399157063, guid: ed4d301734103f5439ef6c6dfc32a4d9, type: 3}
+  - letter: "\xC9"
+    image: {fileID: -1036554751838970036, guid: b9d2a006ea15e1943a5eb084930f8c05, type: 3}
+  - letter: "\xDA"
+    image: {fileID: 6836733956319207809, guid: 37eaffdbd9b346545a78eb30d005e289, type: 3}
   AlphabetWrong:
   - letter: A
     image: {fileID: -4265146878189238408, guid: 289349b0a86246942a3b2134e9bb46d8, type: 3}
@@ -256,3 +272,11 @@ MonoBehaviour:
     image: {fileID: -6841562179241214218, guid: c1a2e2b08f67c0246a8824c2d60295e9, type: 3}
   - letter: "\xC7"
     image: {fileID: 14378035085104614, guid: 13aee6a41ece6974fb282922dc057ba2, type: 3}
+  - letter: "\xD5"
+    image: {fileID: 8938740806255198489, guid: e70ed04d395e08e4794bfb122be4023c, type: 3}
+  - letter: "\xC1"
+    image: {fileID: 6681869229399157063, guid: d4c8ab881916be34e9ce4940cbd8e8a4, type: 3}
+  - letter: "\xC9"
+    image: {fileID: -1036554751838970036, guid: 04db7ea01da4dc541b41c9f6eb7bf65d, type: 3}
+  - letter: "\xDA"
+    image: {fileID: 6836733956319207809, guid: 3cee103ad5114f6429e343e485c2f14b, type: 3}
