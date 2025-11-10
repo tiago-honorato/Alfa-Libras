@@ -15,11 +15,29 @@ public class TextFader : MonoBehaviour
             StartCoroutine(FadeInOut());
     }
 
+    public void FadeInOnly()
+    {
+        if (!isFading)
+            StartCoroutine(FadeIn());
+    }
+
+    IEnumerator FadeIn()
+    {
+        isFading = true;
+        float elapsed = 0f;
+        while (elapsed < fadeDuration)
+        {
+            elapsed += Time.deltaTime;
+            canvasGroup.alpha = Mathf.Clamp01(elapsed / fadeDuration);
+            yield return null;
+        }
+        isFading = false;
+    }
+
     IEnumerator FadeInOut()
     {
         isFading = true;
 
-        // Fade In
         float elapsed = 0f;
         while (elapsed < fadeDuration)
         {
@@ -28,10 +46,8 @@ public class TextFader : MonoBehaviour
             yield return null;
         }
 
-        // Mantém visível por um tempo
         yield return new WaitForSeconds(visibleTime);
 
-        // Fade Out
         elapsed = 0f;
         while (elapsed < fadeDuration)
         {
