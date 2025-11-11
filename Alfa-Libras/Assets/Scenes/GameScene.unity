@@ -3204,7 +3204,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 717931577}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -3221,8 +3221,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasGroup: {fileID: 717931580}
-  fadeDuration: 3
+  fadeDuration: 1
   visibleTime: 0.25
+  waitTime: 1
 --- !u!1 &728820458
 GameObject:
   m_ObjectHideFlags: 0
@@ -3345,7 +3346,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738403962}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -3362,8 +3363,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasGroup: {fileID: 738403965}
-  fadeDuration: 2
+  fadeDuration: 1
   visibleTime: 0.25
+  waitTime: 0.5
 --- !u!1 &763931676
 GameObject:
   m_ObjectHideFlags: 0
@@ -5888,7 +5890,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1322216560}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -5907,6 +5909,7 @@ MonoBehaviour:
   canvasGroup: {fileID: 1322216563}
   fadeDuration: 1
   visibleTime: 0.25
+  waitTime: 0
 --- !u!1 &1368587319
 GameObject:
   m_ObjectHideFlags: 0

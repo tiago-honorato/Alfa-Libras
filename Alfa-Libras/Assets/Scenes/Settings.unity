@@ -2375,8 +2375,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasGroup: {fileID: 1381173386}
-  fadeDuration: 0.25
-  visibleTime: 0.25
+  fadeDuration: 0.2
+  visibleTime: 0.5
+  waitTime: 0
 --- !u!1 &1400707488
 GameObject:
   m_ObjectHideFlags: 0

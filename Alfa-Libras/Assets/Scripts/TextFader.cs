@@ -6,6 +6,7 @@ public class TextFader : MonoBehaviour
     public CanvasGroup canvasGroup;
     public float fadeDuration = 0.5f;
     public float visibleTime = 0.25f;
+    public float waitTime = 2;
 
     private bool isFading = false;
 
@@ -25,6 +26,9 @@ public class TextFader : MonoBehaviour
     {
         isFading = true;
         float elapsed = 0f;
+
+        yield return new WaitForSeconds(waitTime);
+
         while (elapsed < fadeDuration)
         {
             elapsed += Time.deltaTime;

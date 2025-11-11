@@ -65,8 +65,6 @@ MonoBehaviour:
     image: {fileID: -7057060395142453220, guid: f15a3550b738a6d4b96a2be577a4bb45, type: 3}
   - letter: Z
     image: {fileID: 4969131362173423726, guid: f5ad07d21dcd0b9429d0b8ad02e29bcd, type: 3}
-  - letter: "\xC7"
-    image: {fileID: 9173849396026081180, guid: 5569dace8b4853e4a84b08263110ee5c, type: 3}
   AlphabetNormal:
   - letter: A
     image: {fileID: -4265146878189238408, guid: 46ff0c21eeef44c4aac567f4d4dbab3e, type: 3}
@@ -120,8 +118,6 @@ MonoBehaviour:
     image: {fileID: -8793948913590208090, guid: f651c475f525f404fa46110d13154241, type: 3}
   - letter: Z
     image: {fileID: 4290093698992924585, guid: 5aff2ce2981dbbd40b0931f802402ca3, type: 3}
-  - letter: "\xC7"
-    image: {fileID: 9173849396026081180, guid: 5569dace8b4853e4a84b08263110ee5c, type: 3}
   - letter: "\xC3"
     image: {fileID: -4320762729825082284, guid: 71744a747c2c11d4183cdce9d27c9f0f, type: 3}
   - letter: "\xD4"
@@ -138,6 +134,12 @@ MonoBehaviour:
     image: {fileID: -1036554751838970036, guid: ece75af4c82fe384c8d02dd7e6e58278, type: 3}
   - letter: "\xDA"
     image: {fileID: 6836733956319207809, guid: 75e8d9033cbced748a61702c33092195, type: 3}
+  - letter: "\xCD"
+    image: {fileID: -1684698985162025162, guid: 129be8ba85e04b24ab6671a39d4a5bd7, type: 3}
+  - letter: "\xC2"
+    image: {fileID: -902670968650637775, guid: 1ca75a420479b5549a97be70ddfc5f5c, type: 3}
+  - letter: "\xCA"
+    image: {fileID: -5218833401721649051, guid: 2456bd747ec60f74eb29f23f742b9be8, type: 3}
   AlphabetHighlighted:
   - letter: A
     image: {fileID: -4265146878189238408, guid: 843cd4af57c860b4781ad4cd2af5dc60, type: 3}
@@ -191,8 +193,6 @@ MonoBehaviour:
     image: {fileID: -8793948913590208090, guid: 846d6fb015e96904f9a6c1d572fb929c, type: 3}
   - letter: Z
     image: {fileID: 4290093698992924585, guid: 1430d622c7245494795730d40a5c8ad5, type: 3}
-  - letter: "\xC7"
-    image: {fileID: 9173849396026081180, guid: 5569dace8b4853e4a84b08263110ee5c, type: 3}
   - letter: "\xC3"
     image: {fileID: -4320762729825082284, guid: 529bf41f42ff0514baadbd164495be58, type: 3}
   - letter: "\xD4"
@@ -209,6 +209,12 @@ MonoBehaviour:
     image: {fileID: -1036554751838970036, guid: b9d2a006ea15e1943a5eb084930f8c05, type: 3}
   - letter: "\xDA"
     image: {fileID: 6836733956319207809, guid: 37eaffdbd9b346545a78eb30d005e289, type: 3}
+  - letter: "\xCD"
+    image: {fileID: -1684698985162025162, guid: 9f14efffcda48a247b710ec58c5524c3, type: 3}
+  - letter: "\xC2"
+    image: {fileID: -902670968650637775, guid: 3af483329ad6a4f4bb353ded5b26a8f2, type: 3}
+  - letter: "\xCA"
+    image: {fileID: -5218833401721649051, guid: 26a3ad727d3e91b4bbc1625b3d722239, type: 3}
   AlphabetWrong:
   - letter: A
     image: {fileID: -4265146878189238408, guid: 289349b0a86246942a3b2134e9bb46d8, type: 3}
@@ -262,8 +268,6 @@ MonoBehaviour:
     image: {fileID: -8793948913590208090, guid: 123ab70e92a1cb34aa4ecd8c2bddbb4d, type: 3}
   - letter: Z
     image: {fileID: 4290093698992924585, guid: 7db37f9f47ef17040a147e0a61f8b888, type: 3}
-  - letter: "\xC7"
-    image: {fileID: 9173849396026081180, guid: 5569dace8b4853e4a84b08263110ee5c, type: 3}
   - letter: "\xC3"
     image: {fileID: -4320762729825082284, guid: c30cd5c87e6f0874ea5565ec94542a80, type: 3}
   - letter: "\xD4"
@@ -280,3 +284,9 @@ MonoBehaviour:
     image: {fileID: -1036554751838970036, guid: 04db7ea01da4dc541b41c9f6eb7bf65d, type: 3}
   - letter: "\xDA"
     image: {fileID: 6836733956319207809, guid: 3cee103ad5114f6429e343e485c2f14b, type: 3}
+  - letter: "\xCD"
+    image: {fileID: -1684698985162025162, guid: 205a896d19fbab647b58d26457cf6d1c, type: 3}
+  - letter: "\xC2"
+    image: {fileID: -902670968650637775, guid: 9cb9282f9bc17c14ebceb469ea5886dd, type: 3}
+  - letter: "\xCA"
+    image: {fileID: -5218833401721649051, guid: 7622e19b5ca5bb44e82b2af3401303c7, type: 3}
