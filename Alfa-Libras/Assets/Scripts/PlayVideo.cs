@@ -4,7 +4,7 @@ using UnityEngine.Video;
 public class PlayVideo : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
-    public GameObject videoDisplay; // Objeto que mostra o vídeo (RawImage, tela, etc.)
+    public GameObject videoDisplay;
 
     void Start()
     {
@@ -18,13 +18,13 @@ public class PlayVideo : MonoBehaviour
     {
         if (videoPlayer != null)
         {
-            videoDisplay.SetActive(true);  // mostra o vídeo
+            videoDisplay.SetActive(true);
             videoPlayer.Play();
         }
     }
 
     void OnVideoEnd(VideoPlayer vp)
     {
-        videoDisplay.SetActive(false); // esconde o vídeo quando termina
+        videoDisplay.SetActive(false);
     }
 }

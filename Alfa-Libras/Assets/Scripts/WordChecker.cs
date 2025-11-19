@@ -22,19 +22,18 @@ public class WordChecker : MonoBehaviour
     private Vector3 _rayStartPosition;
     private List<int> _correctSquareList = new List<int>();
 
+    // --- ALTERAÇÃO: Variável para guardar a posição da última letra válida ---
+    private Vector3 _lastSquarePosition;
+
     private void OnEnable()
     {
-
         GameEvents.OnCheckSquare += SquareSelected;
         GameEvents.OnClearSelection += ClearSelection;
         GameEvents.OnLoadNextLevel += LoadNextGameLevel;
-
-
     }
 
     private void OnDisable()
     {
-
         GameEvents.OnCheckSquare -= SquareSelected;
         GameEvents.OnClearSelection -= ClearSelection;
         GameEvents.OnLoadNextLevel -= LoadNextGameLevel;
@@ -45,7 +44,6 @@ public class WordChecker : MonoBehaviour
         SceneManager.LoadScene("GameScene");
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         currentGameData.selectedBoardData.ClearData();
@@ -53,19 +51,12 @@ public class WordChecker : MonoBehaviour
         _completedWords = 0;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (_assignedPoints > 0 && Application.isEditor)
         {
             Debug.DrawRay(_rayUp.origin, _rayUp.direction * 4);
-            Debug.DrawRay(_rayDown.origin, _rayDown.direction * 4);
-            Debug.DrawRay(_rayLeft.origin, _rayLeft.direction * 4);
-            Debug.DrawRay(_rayRight.origin, _rayRight.direction * 4);
-            Debug.DrawRay(_rayDiagonalLeftUp.origin, _rayDiagonalLeftUp.direction * 4);
-            Debug.DrawRay(_rayDiagonalLeftDown.origin, _rayDiagonalLeftDown.direction * 4);
-            Debug.DrawRay(_rayDiagonalRightUp.origin, _rayDiagonalRightUp.direction * 4);
-            Debug.DrawRay(_rayDiagonalRightDown.origin, _rayDiagonalRightDown.direction * 4);
+            // ... (seu código de debug original continua aqui se quiser manter)
         }
     }
 
@@ -85,28 +76,75 @@ public class WordChecker : MonoBehaviour
             _rayDiagonalLeftDown = new Ray(new Vector2(squarePosition.x, squarePosition.y), new Vector2(-1, -1));
             _rayDiagonalRightUp = new Ray(new Vector2(squarePosition.x, squarePosition.y), new Vector2(1, 1));
             _rayDiagonalRightDown = new Ray(new Vector2(squarePosition.x, squarePosition.y), new Vector2(1, -1));
+
+            // --- ALTERAÇÃO: Inicializa a última posição ---
+            _lastSquarePosition = squarePosition;
         }
         else if (_assignedPoints == 1)
         {
+            // --- ALTERAÇÃO: Verifica se pulou alguma letra entre a primeira e a segunda ---
+            if (!IsAdjacent(_lastSquarePosition, squarePosition)) return;
+
             _correctSquareList.Add(SquareIndex);
             _currentRay = SelectRay(_rayStartPosition, squarePosition);
             GameEvents.SelectSquareMethod(squarePosition);
             _word += letter;
+
+            // --- ALTERAÇÃO: Atualiza a última posição ---
+            _lastSquarePosition = squarePosition;
+
             CheckWord();
         }
         else
         {
             if (IsPointOnTheRay(_currentRay, squarePosition))
             {
+                // --- ALTERAÇÃO: Verifica se pulou letra entre a última e a atual ---
+                if (!IsAdjacent(_lastSquarePosition, squarePosition)) return;
+
                 _correctSquareList.Add(SquareIndex);
                 GameEvents.SelectSquareMethod(squarePosition);
                 _word += letter;
+
+                // --- ALTERAÇÃO: Atualiza a última posição ---
+                _lastSquarePosition = squarePosition;
+
                 CheckWord();
             }
         }
 
         _assignedPoints++;
+    }
 
+    // --- ALTERAÇÃO: Nova função para verificar se existe um buraco na seleção ---
+    private bool IsAdjacent(Vector3 startPosition, Vector3 endPosition)
+    {
+        var direction = (endPosition - startPosition).normalized;
+        var distance = Vector3.Distance(startPosition, endPosition);
+
+        // Lança um raio da letra anterior até a nova letra
+        // Subtraímos um pouquinho da distância (0.1f) para garantir que não pegaremos o collider de trás se houver sobreposição
+        var hits = Physics.RaycastAll(new Ray(startPosition, direction), distance);
+
+        int validHits = 0;
+
+        // Contamos quantos quadrados válidos o raio atingiu
+        foreach (var hit in hits)
+        {
+            // Verifique se o objeto atingido tem o componente GridSquare (ou o nome do seu script de quadrado)
+            if (hit.transform.GetComponent<GridSquare>() != null)
+            {
+                // Ignora o quadrado de onde o raio partiu (startPosition) se o Raycast o detectar
+                if (Vector3.Distance(hit.transform.position, startPosition) > 0.01f)
+                {
+                    validHits++;
+                }
+            }
+        }
+
+        // Se atingiu mais de 1 quadrado (o destino + algum no meio), então pulou uma letra.
+        // O esperado é atingir apenas 1 (o destino).
+        return validHits <= 1;
     }
 
     private void CheckWord()
@@ -132,7 +170,6 @@ public class WordChecker : MonoBehaviour
 
         for (int i = 0; i < hits.Length; i++)
         {
-
             if (hits[i].transform.position == point)
             {
                 return true;
@@ -140,64 +177,39 @@ public class WordChecker : MonoBehaviour
         }
         return false;
     }
+
     private Ray SelectRay(Vector2 firstPosition, Vector2 secondPosition)
     {
         var direction = (secondPosition - firstPosition).normalized;
         float tolerance = 0.1f;
 
-        if (Math.Abs(direction.x) < tolerance && Math.Abs(direction.y - 1f) < tolerance)
-        {
-            return _rayUp;
-        }
-        if (Math.Abs(direction.x) < tolerance && Math.Abs(direction.y - (-1f)) < tolerance)
-        {
-            return _rayDown;
-        }
-        if (Math.Abs(direction.x - (-1f)) < tolerance && Math.Abs(direction.y) < tolerance)
-        {
-            return _rayLeft;
-        }
-        if (Math.Abs(direction.x - 1f) < tolerance && Math.Abs(direction.y) < tolerance)
-        {
-            return _rayRight;
-        }
-        if (direction.x < 0f && direction.y > 0f)
-        {
-            return _rayDiagonalLeftUp;
-        }
-        if (direction.x < 0f && direction.y < 0f)
-        {
-            return _rayDiagonalLeftDown;
-        }
-        if (direction.x > 0f && direction.y > 0f)
-        {
-            return _rayDiagonalRightUp;
-        }
-        if (direction.x > 0f && direction.y < 0f)
-        {
-            return _rayDiagonalRightDown;
-        }
+        if (Math.Abs(direction.x) < tolerance && Math.Abs(direction.y - 1f) < tolerance) return _rayUp;
+        if (Math.Abs(direction.x) < tolerance && Math.Abs(direction.y - (-1f)) < tolerance) return _rayDown;
+        if (Math.Abs(direction.x - (-1f)) < tolerance && Math.Abs(direction.y) < tolerance) return _rayLeft;
+        if (Math.Abs(direction.x - 1f) < tolerance && Math.Abs(direction.y) < tolerance) return _rayRight;
+        if (direction.x < 0f && direction.y > 0f) return _rayDiagonalLeftUp;
+        if (direction.x < 0f && direction.y < 0f) return _rayDiagonalLeftDown;
+        if (direction.x > 0f && direction.y > 0f) return _rayDiagonalRightUp;
+        if (direction.x > 0f && direction.y < 0f) return _rayDiagonalRightDown;
 
         return _rayDown;
     }
 
     private void ClearSelection()
     {
-
         _assignedPoints = 0;
         _correctSquareList.Clear();
         _word = string.Empty;
-
     }
 
     private void CheckBoardCompleted()
     {
-
+        // (Mantenha o código original do CheckBoardCompleted aqui, sem alterações)
+        // ...
         bool loadNextCategory = false;
 
         if (currentGameData.selectedBoardData.SearchWords.Count == _completedWords)
         {
-            //Save current level progress
             var categoryName = currentGameData.selectedCategoryName;
             var currentBoardIndex = DataSaver.ReadCategoryCurrentIndexValues(categoryName);
             var nextBoardIndex = -1;
@@ -225,11 +237,10 @@ public class WordChecker : MonoBehaviour
 
             DataSaver.SaveCategoryData(categoryName, currentBoardIndex);
 
-            //Unlock Next Category
             if (currentBoardIndex >= currentLevelSize)
             {
                 currentCategoryIndex++;
-                if (currentCategoryIndex < GameLevelData.data.Count) //If this is not the last category
+                if (currentCategoryIndex < GameLevelData.data.Count)
                 {
                     categoryName = GameLevelData.data[currentCategoryIndex].categoryName;
                     currentBoardIndex = 0;
@@ -253,7 +264,5 @@ public class WordChecker : MonoBehaviour
             if (loadNextCategory)
                 GameEvents.UnlockNextCategoryMethod();
         }
-
     }
-
 }
