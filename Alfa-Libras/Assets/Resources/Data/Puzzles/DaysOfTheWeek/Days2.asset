@@ -18,16 +18,16 @@ MonoBehaviour:
   Board:
   - Size: 7
     Row:
-    - ' '
-    - 
-    - ' '
-    - ' '
-    - ' '
-    - ' '
+    - D
+    - C
+    - D
+    - U
+    - H
+    - I
     - S
   - Size: 7
     Row:
-    - 
+    - C
     - Q
     - U
     - I
@@ -36,17 +36,17 @@ MonoBehaviour:
     - A
   - Size: 7
     Row:
-    - ' '
-    - 
-    - ' '
-    - ' '
-    - ' '
-    - ' '
+    - S
+    - F
+    - O
+    - L
+    - R
+    - U
     - B
   - Size: 7
     Row:
-    - ' '
-    - 
+    - I
+    - C
     - S
     - E
     - X
@@ -54,12 +54,12 @@ MonoBehaviour:
     - A
   - Size: 7
     Row:
-    - ' '
-    - 
-    - ' '
-    - ' '
-    - ' '
-    - ' '
+    - Z
+    - U
+    - G
+    - X
+    - A
+    - E
     - D
   - Size: 7
     Row:
@@ -71,11 +71,11 @@ MonoBehaviour:
     - G
     - O
   SearchWords:
-  - Found: 0
+  - Found: 1
     Word: QUINTA
-  - Found: 0
+  - Found: 1
     Word: SEXTA
-  - Found: 0
+  - Found: 1
     Word: SABADO
-  - Found: 0
+  - Found: 1
     Word: DOMINGO

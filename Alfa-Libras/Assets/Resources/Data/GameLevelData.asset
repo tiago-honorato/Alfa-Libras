@@ -43,10 +43,10 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 7658284f23e142445a348a3424e0b418, type: 2}
     - {fileID: 11400000, guid: 4fb7c119297536f48a19c4a9d2d11f43, type: 2}
     - {fileID: 11400000, guid: e4d34023b1a391841b07f472f6dd239e, type: 2}
-  - categoryName: Countries
-    boardData: []
-  - categoryName: Test1
-    boardData: []
+  - categoryName: DaysOfTheWeek
+    boardData:
+    - {fileID: 11400000, guid: 4a97e3b0239c51f44b84535e8f70a091, type: 2}
+    - {fileID: 11400000, guid: 6d882e5666425bd4ba3d2696e004134b, type: 2}
   - categoryName: Test2
     boardData: []
   - categoryName: Test3
