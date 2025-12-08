@@ -8750,8 +8750,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.1699982, y: 7.4000015}
-  m_SizeDelta: {x: 1363.66, y: 2055.39}
+  m_AnchoredPosition: {x: -2.1699982, y: -2.4499512}
+  m_SizeDelta: {x: 1363.66, y: 2075.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1911800833
 MonoBehaviour:
@@ -8898,7 +8898,7 @@ MonoBehaviour:
   currentGameData: {fileID: 11400000, guid: daa1da23781fec14199ff521d424690e, type: 2}
   gridSquarePrefab: {fileID: 3227187605422712149, guid: d4bff676b3af77c448211bc10a93e6ed, type: 3}
   alphabetData: {fileID: 11400000, guid: 2f3a884989c129445a820a9b2af338c9, type: 2}
-  squareOffSet: 0.06
+  squareOffSet: 0.05
   topPosition: 4.55
 --- !u!114 &1927243601
 MonoBehaviour:

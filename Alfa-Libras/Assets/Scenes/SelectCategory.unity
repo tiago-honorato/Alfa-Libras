@@ -2590,6 +2590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DaysOfTheWeek
       objectReference: {fileID: 0}
+    - target: {fileID: 5714788966208684207, guid: 37ed0dd745b77a54c98c695e4144f0d9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5942904231356035606, guid: 37ed0dd745b77a54c98c695e4144f0d9, type: 3}
       propertyPath: m_SizeDelta.x
       value: 687
@@ -8623,7 +8627,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 15, y: 0}
+  m_AnchoredPosition: {x: 15, y: -10}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2085073521

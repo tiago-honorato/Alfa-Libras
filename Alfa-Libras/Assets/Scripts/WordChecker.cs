@@ -22,7 +22,6 @@ public class WordChecker : MonoBehaviour
     private Vector3 _rayStartPosition;
     private List<int> _correctSquareList = new List<int>();
 
-    // --- ALTERAÇÃO: Variável para guardar a posição da última letra válida ---
     private Vector3 _lastSquarePosition;
 
     private void OnEnable()
@@ -56,7 +55,6 @@ public class WordChecker : MonoBehaviour
         if (_assignedPoints > 0 && Application.isEditor)
         {
             Debug.DrawRay(_rayUp.origin, _rayUp.direction * 4);
-            // ... (seu código de debug original continua aqui se quiser manter)
         }
     }
 
@@ -77,12 +75,10 @@ public class WordChecker : MonoBehaviour
             _rayDiagonalRightUp = new Ray(new Vector2(squarePosition.x, squarePosition.y), new Vector2(1, 1));
             _rayDiagonalRightDown = new Ray(new Vector2(squarePosition.x, squarePosition.y), new Vector2(1, -1));
 
-            // --- ALTERAÇÃO: Inicializa a última posição ---
             _lastSquarePosition = squarePosition;
         }
         else if (_assignedPoints == 1)
         {
-            // --- ALTERAÇÃO: Verifica se pulou alguma letra entre a primeira e a segunda ---
             if (!IsAdjacent(_lastSquarePosition, squarePosition)) return;
 
             _correctSquareList.Add(SquareIndex);
@@ -90,7 +86,6 @@ public class WordChecker : MonoBehaviour
             GameEvents.SelectSquareMethod(squarePosition);
             _word += letter;
 
-            // --- ALTERAÇÃO: Atualiza a última posição ---
             _lastSquarePosition = squarePosition;
 
             CheckWord();
@@ -99,14 +94,12 @@ public class WordChecker : MonoBehaviour
         {
             if (IsPointOnTheRay(_currentRay, squarePosition))
             {
-                // --- ALTERAÇÃO: Verifica se pulou letra entre a última e a atual ---
                 if (!IsAdjacent(_lastSquarePosition, squarePosition)) return;
 
                 _correctSquareList.Add(SquareIndex);
                 GameEvents.SelectSquareMethod(squarePosition);
                 _word += letter;
 
-                // --- ALTERAÇÃO: Atualiza a última posição ---
                 _lastSquarePosition = squarePosition;
 
                 CheckWord();
@@ -116,25 +109,19 @@ public class WordChecker : MonoBehaviour
         _assignedPoints++;
     }
 
-    // --- ALTERAÇÃO: Nova função para verificar se existe um buraco na seleção ---
     private bool IsAdjacent(Vector3 startPosition, Vector3 endPosition)
     {
         var direction = (endPosition - startPosition).normalized;
         var distance = Vector3.Distance(startPosition, endPosition);
 
-        // Lança um raio da letra anterior até a nova letra
-        // Subtraímos um pouquinho da distância (0.1f) para garantir que não pegaremos o collider de trás se houver sobreposição
         var hits = Physics.RaycastAll(new Ray(startPosition, direction), distance);
 
         int validHits = 0;
 
-        // Contamos quantos quadrados válidos o raio atingiu
         foreach (var hit in hits)
         {
-            // Verifique se o objeto atingido tem o componente GridSquare (ou o nome do seu script de quadrado)
             if (hit.transform.GetComponent<GridSquare>() != null)
             {
-                // Ignora o quadrado de onde o raio partiu (startPosition) se o Raycast o detectar
                 if (Vector3.Distance(hit.transform.position, startPosition) > 0.01f)
                 {
                     validHits++;
@@ -142,8 +129,6 @@ public class WordChecker : MonoBehaviour
             }
         }
 
-        // Se atingiu mais de 1 quadrado (o destino + algum no meio), então pulou uma letra.
-        // O esperado é atingir apenas 1 (o destino).
         return validHits <= 1;
     }
 
@@ -204,8 +189,6 @@ public class WordChecker : MonoBehaviour
 
     private void CheckBoardCompleted()
     {
-        // (Mantenha o código original do CheckBoardCompleted aqui, sem alterações)
-        // ...
         bool loadNextCategory = false;
 
         if (currentGameData.selectedBoardData.SearchWords.Count == _completedWords)
