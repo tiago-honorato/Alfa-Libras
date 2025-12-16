@@ -3598,7 +3598,7 @@ MonoBehaviour:
   canvasGroup: {fileID: 717931580}
   fadeDuration: 1
   visibleTime: 0.25
-  waitTime: 1
+  waitTime: 0.3
 --- !u!1 &728820458
 GameObject:
   m_ObjectHideFlags: 0
@@ -3740,7 +3740,7 @@ MonoBehaviour:
   canvasGroup: {fileID: 738403965}
   fadeDuration: 1
   visibleTime: 0.25
-  waitTime: 0.5
+  waitTime: 0.2
 --- !u!1 &763931676
 GameObject:
   m_ObjectHideFlags: 0
@@ -9610,7 +9610,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6493728894048222448, guid: 0374d1543792da44598d5c234710cee4, type: 3}
+  m_Sprite: {fileID: 7922201778609530371, guid: 39161cd4d3ebe164ab1164f97d1a77ff, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

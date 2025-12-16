@@ -11,6 +11,15 @@ public class GameUtility : MonoBehaviour
 
     }
 
+    public void LoadSceneByProgression(string categoryName)
+    {
+
+        int currentIndex = DataSaver.ReadCategoryCurrentIndexValues(categoryName);
+        Debug.Log("valor atual: " + currentIndex);
+
+
+    }
+
     public void ExitApplication()
     {
         Application.Quit();
