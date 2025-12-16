@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Videos/SelectVideos.unity
     guid: 6fc1120dbba7ad64d8df4c1bd903c062
+  - enabled: 1
+    path: Assets/Scenes/Videos/SelectVideos2.unity
+    guid: 899d6c9f3edfe664ca6d18103211bb66
+  - enabled: 1
+    path: Assets/Scenes/TelaSinais.unity
+    guid: 878b3616cb4783046b7e6bf639369fe3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
