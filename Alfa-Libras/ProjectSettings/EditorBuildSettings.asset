@@ -29,6 +29,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Videos/SelectVideos3.unity
     guid: 3a1ef6c5236df694a88b0892b56aac14
+  - enabled: 1
+    path: Assets/Scenes/Videos/SelectVideos4.unity
+    guid: a70ed8441822d1843816b0aabd749b97
+  - enabled: 1
+    path: Assets/Scenes/Videos/SelectVideos5.unity
+    guid: 33806932c832d164da728c447e05aa48
+  - enabled: 1
+    path: Assets/Scenes/Videos/SelectVideos6.unity
+    guid: db4f07e93ac7da3459b833c74a66db73
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
