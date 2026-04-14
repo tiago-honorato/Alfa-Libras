@@ -710,7 +710,7 @@ MonoBehaviour:
         m_MethodName: ReproduzirVideo
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: 304a62cbd8a364d4c991a31c05416479, type: 3}
+          m_ObjectArgument: {fileID: 32900000, guid: 638e6f1c8b6d6e846a0c0c67e42d40f1, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1673,7 +1673,7 @@ MonoBehaviour:
         m_MethodName: ReproduzirVideo
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: 6a0074e9d3f912a44a60463df08a6e78, type: 3}
+          m_ObjectArgument: {fileID: 32900000, guid: 17c5889c3bb771f4c88995584577ed73, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2792,7 +2792,7 @@ MonoBehaviour:
         m_MethodName: ReproduzirVideo
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: a2c02bd888b24a74c83eddf63e010c01, type: 3}
+          m_ObjectArgument: {fileID: 32900000, guid: 2253412cd06ddd64695ffac7827680f2, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3358,7 +3358,7 @@ MonoBehaviour:
         m_MethodName: ReproduzirVideo
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: 04a4109e43ae91248808795790f2d3e9, type: 3}
+          m_ObjectArgument: {fileID: 32900000, guid: b9bcf0a674a11b2488a14dd02e4ad1ac, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3491,7 +3491,7 @@ MonoBehaviour:
         m_MethodName: ReproduzirVideo
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: 439d9d90b53def147bf019354e47d5ff, type: 3}
+          m_ObjectArgument: {fileID: 32900000, guid: 9c59bc32d1074a24ca81747840070a9a, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3624,7 +3624,7 @@ MonoBehaviour:
         m_MethodName: ReproduzirVideo
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: 75f0dba2e11ce934ea42b7dd68d621a5, type: 3}
+          m_ObjectArgument: {fileID: 32900000, guid: e8b8ffb2359368f47b914049df5b2ca8, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3793,7 +3793,7 @@ MonoBehaviour:
         m_MethodName: ReproduzirVideo
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: 4b50eaec808a8934cb637b1bd94f0e78, type: 3}
+          m_ObjectArgument: {fileID: 32900000, guid: f7f4f6d7c24fff445a2429d82dd66246, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -5394,7 +5394,7 @@ MonoBehaviour:
         m_MethodName: ReproduzirVideo
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: 7a9f8c978a1ff834b9f45347c9cb12ee, type: 3}
+          m_ObjectArgument: {fileID: 32900000, guid: 4b1fae9f01a9a5048a441358034d4d32, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -5946,7 +5946,7 @@ MonoBehaviour:
         m_MethodName: ReproduzirVideo
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: ffc59845254edee4fa8b74a28a9379ca, type: 3}
+          m_ObjectArgument: {fileID: 32900000, guid: f7f4f6d7c24fff445a2429d82dd66246, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -6597,7 +6597,7 @@ MonoBehaviour:
         m_MethodName: ReproduzirVideo
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: 49b3d37bfcd1e4f46aed8783bdafffdd, type: 3}
+          m_ObjectArgument: {fileID: 32900000, guid: 6e3207aab596f064dba8fbc1f18b83b9, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -6902,7 +6902,7 @@ MonoBehaviour:
         m_MethodName: ReproduzirVideo
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: 467da56058efcc74ca422f76595a6191, type: 3}
+          m_ObjectArgument: {fileID: 32900000, guid: 9356ffd0bdf47e146bc41e731ac7afe0, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -7035,7 +7035,7 @@ MonoBehaviour:
         m_MethodName: ReproduzirVideo
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: d6c0a29641da7ff48923d873584224fe, type: 3}
+          m_ObjectArgument: {fileID: 32900000, guid: 2f1a4251b6426824c95eb49e3f484ab7, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -7651,7 +7651,7 @@ MonoBehaviour:
         m_MethodName: ReproduzirVideo
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: c073409600a9c274cb2ff0da50e60c84, type: 3}
+          m_ObjectArgument: {fileID: 32900000, guid: 8da875e5898662348a209ef5f41b9e09, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -8214,7 +8214,7 @@ MonoBehaviour:
         m_MethodName: ReproduzirVideo
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: f74246645897f274eaa9288bdb9963e9, type: 3}
+          m_ObjectArgument: {fileID: 32900000, guid: 4415aaee52b3a6f40a5f1bcd761c9939, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -8347,7 +8347,7 @@ MonoBehaviour:
         m_MethodName: ReproduzirVideo
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: d072f1fb105357b45bad580852b87995, type: 3}
+          m_ObjectArgument: {fileID: 32900000, guid: 7c5efdaf98c09ca4298786dc2e1a2808, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0

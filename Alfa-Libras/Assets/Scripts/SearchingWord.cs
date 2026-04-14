@@ -9,11 +9,16 @@ public class SearchingWord : MonoBehaviour
     public Text displayedText;
     public Image crossLine;
 
+    public Font font;
+
     private string _word;
 
     void Start()
     {
-
+        if (font != null)
+        {
+            displayedText.font = font;
+        }
     }
 
     private void OnEnable()
