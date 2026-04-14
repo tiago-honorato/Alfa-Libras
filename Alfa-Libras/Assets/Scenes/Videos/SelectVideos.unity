@@ -6879,8 +6879,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: 62}
-  m_SizeDelta: {x: 395, y: 68.828}
+  m_AnchoredPosition: {x: -9, y: 62}
+  m_SizeDelta: {x: 411, y: 68.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1476570289
 MonoBehaviour:
@@ -6902,7 +6902,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ARROZ
+  m_text: QUEIJO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 64853d59ed9027443bad069467bc0225, type: 2}
   m_sharedMaterial: {fileID: 8808022540569567937, guid: 64853d59ed9027443bad069467bc0225, type: 2}

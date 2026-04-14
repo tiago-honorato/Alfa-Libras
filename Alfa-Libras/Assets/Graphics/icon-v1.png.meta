@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f6afa887447b6444e84d5c626212e953
+guid: 7d053820c44cbb94095ddf0684f2c462
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3733986265564657563
-    second: icon_caca-sinais_0
+      213: 1077392964121944248
+    second: icon-v1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: icon_caca-sinais_0
+      name: icon-v1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b973b2b99b8c1d330800000000000000
-      internalID: 3733986265564657563
+      spriteID: 8b06efd413ba3fe00800000000000000
+      internalID: 1077392964121944248
       vertices: []
       indices: 
       edges: []
