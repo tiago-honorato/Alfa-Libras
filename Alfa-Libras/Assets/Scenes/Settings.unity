@@ -1566,7 +1566,7 @@ GameObject:
   - component: {fileID: 855980910}
   - component: {fileID: 855980909}
   m_Layer: 5
-  m_Name: DESIGN-txt
+  m_Name: DESIGNER-txt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1611,7 +1611,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'DESIGN:'
+  m_text: 'DESIGNER:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 64853d59ed9027443bad069467bc0225, type: 2}
   m_sharedMaterial: {fileID: 8808022540569567937, guid: 64853d59ed9027443bad069467bc0225, type: 2}
@@ -2378,7 +2378,7 @@ GameObject:
   - component: {fileID: 1409386389}
   - component: {fileID: 1409386388}
   m_Layer: 5
-  m_Name: DESIGN-txt-name
+  m_Name: DESIGNER-txt-name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
