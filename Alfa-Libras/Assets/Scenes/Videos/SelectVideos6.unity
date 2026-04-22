@@ -1638,8 +1638,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: QUINTA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 64853d59ed9027443bad069467bc0225, type: 2}
-  m_sharedMaterial: {fileID: 8808022540569567937, guid: 64853d59ed9027443bad069467bc0225, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
+  m_sharedMaterial: {fileID: -6909838899414183295, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1901,8 +1901,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: DOMINGO
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 64853d59ed9027443bad069467bc0225, type: 2}
-  m_sharedMaterial: {fileID: 8808022540569567937, guid: 64853d59ed9027443bad069467bc0225, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
+  m_sharedMaterial: {fileID: -6909838899414183295, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2037,8 +2037,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SABADO
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 64853d59ed9027443bad069467bc0225, type: 2}
-  m_sharedMaterial: {fileID: 8808022540569567937, guid: 64853d59ed9027443bad069467bc0225, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
+  m_sharedMaterial: {fileID: -6909838899414183295, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2885,8 +2885,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SEGUNDA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 64853d59ed9027443bad069467bc0225, type: 2}
-  m_sharedMaterial: {fileID: 8808022540569567937, guid: 64853d59ed9027443bad069467bc0225, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
+  m_sharedMaterial: {fileID: -6909838899414183295, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3171,8 +3171,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SEXTA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 64853d59ed9027443bad069467bc0225, type: 2}
-  m_sharedMaterial: {fileID: 8808022540569567937, guid: 64853d59ed9027443bad069467bc0225, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
+  m_sharedMaterial: {fileID: -6909838899414183295, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4172,8 +4172,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: QUARTA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 64853d59ed9027443bad069467bc0225, type: 2}
-  m_sharedMaterial: {fileID: 8808022540569567937, guid: 64853d59ed9027443bad069467bc0225, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
+  m_sharedMaterial: {fileID: -6909838899414183295, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4893,10 +4893,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TERCA
+  m_text: "TER\xC7A"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 64853d59ed9027443bad069467bc0225, type: 2}
-  m_sharedMaterial: {fileID: 8808022540569567937, guid: 64853d59ed9027443bad069467bc0225, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
+  m_sharedMaterial: {fileID: -6909838899414183295, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

@@ -1973,8 +1973,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: NETA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 64853d59ed9027443bad069467bc0225, type: 2}
-  m_sharedMaterial: {fileID: 8808022540569567937, guid: 64853d59ed9027443bad069467bc0225, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
+  m_sharedMaterial: {fileID: -6909838899414183295, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2145,8 +2145,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SOGRA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 64853d59ed9027443bad069467bc0225, type: 2}
-  m_sharedMaterial: {fileID: 8808022540569567937, guid: 64853d59ed9027443bad069467bc0225, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
+  m_sharedMaterial: {fileID: -6909838899414183295, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2279,7 +2279,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: FAMILIA
+  m_text: "FAM\xCDLIA"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
   m_sharedMaterial: {fileID: -6909838899414183295, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
@@ -3453,8 +3453,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PRIMO
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 64853d59ed9027443bad069467bc0225, type: 2}
-  m_sharedMaterial: {fileID: 8808022540569567937, guid: 64853d59ed9027443bad069467bc0225, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
+  m_sharedMaterial: {fileID: -6909838899414183295, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3664,8 +3664,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: CUNHADO
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 64853d59ed9027443bad069467bc0225, type: 2}
-  m_sharedMaterial: {fileID: 8808022540569567937, guid: 64853d59ed9027443bad069467bc0225, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
+  m_sharedMaterial: {fileID: -6909838899414183295, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4325,7 +4325,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: IRMA
+  m_text: "IRM\xC3"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
   m_sharedMaterial: {fileID: -6909838899414183295, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
@@ -5013,10 +5013,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: AVO
+  m_text: "AV\xD3"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 64853d59ed9027443bad069467bc0225, type: 2}
-  m_sharedMaterial: {fileID: 8808022540569567937, guid: 64853d59ed9027443bad069467bc0225, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
+  m_sharedMaterial: {fileID: -6909838899414183295, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5468,10 +5468,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: AVO
+  m_text: "AV\xD4"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 64853d59ed9027443bad069467bc0225, type: 2}
-  m_sharedMaterial: {fileID: 8808022540569567937, guid: 64853d59ed9027443bad069467bc0225, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
+  m_sharedMaterial: {fileID: -6909838899414183295, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5742,8 +5742,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SOBRINHO
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 64853d59ed9027443bad069467bc0225, type: 2}
-  m_sharedMaterial: {fileID: 8808022540569567937, guid: 64853d59ed9027443bad069467bc0225, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
+  m_sharedMaterial: {fileID: -6909838899414183295, guid: 010ed19205983d04bb375da17fb449c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

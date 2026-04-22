@@ -92,7 +92,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayedText: {fileID: 1785350149523631604}
   crossLine: {fileID: 5778944235694242781}
-  font: {fileID: 12800000, guid: be37569a5a6d7e1458e3e49d25547717, type: 3}
+  font: {fileID: 12800000, guid: 96a01633811e40d43b0e363296fd4f8b, type: 3}
 --- !u!1 &4285052629585829327
 GameObject:
   m_ObjectHideFlags: 0
