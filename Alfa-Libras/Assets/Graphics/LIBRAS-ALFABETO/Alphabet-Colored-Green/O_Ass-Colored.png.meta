@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      O_Ass-Colored_0: 5713728210144039066
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

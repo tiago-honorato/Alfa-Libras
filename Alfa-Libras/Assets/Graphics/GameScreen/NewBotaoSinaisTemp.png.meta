@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NewBotaoSinaisTemp_0: 7922201778609530371
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
