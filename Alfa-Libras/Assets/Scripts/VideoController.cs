@@ -1,44 +1,53 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.Video;
 
 public class VideoController : MonoBehaviour
 {
-    [Header("Componentes")]
     public VideoPlayer videoPlayer;
-    public GameObject videoDisplay; // A tela onde o vídeo passa (RawImage ou Mesh)
-    public GameObject background;   // O fundo escuro (opcional)
+    public GameObject videoDisplay;
+    public GameObject background;
 
-    public void ReproduzirVideo(VideoClip videoClicado)
+    private string videoAtual;
+
+    public void ReproduzirVideo(string urlVideo)
     {
-        // 1. Verifica se a tela já está ligada
+        // Se clicar no mesmo vÃ­deo novamente â†’ fecha
         if (videoDisplay.activeSelf)
         {
-            // Se o vídeo que está tocando é O MESMO que foi clicado...
-            if (videoPlayer.clip == videoClicado)
+            if (videoAtual == urlVideo)
             {
-                // ...então o usuário quer FECHAR a tela (Toggle Off)
                 FecharVideo();
-                return; // Sai da função
+                return;
             }
         }
 
-        // 2. Se chegou aqui, ou a tela estava fechada, ou clicou em um vídeo diferente.
-        // Então vamos trocar o vídeo e tocar.
+        videoAtual = urlVideo;
 
-        videoPlayer.clip = videoClicado; // Troca o "disco" do player
+        videoPlayer.Stop();
+        videoPlayer.source = VideoSource.Url;
+        videoPlayer.url = urlVideo;
 
-        background.SetActive(true);      // Liga o fundo
-        videoDisplay.SetActive(true);    // Liga a tela
-        videoPlayer.Play();              // Dá o play
+        background.SetActive(true);
+        videoDisplay.SetActive(true);
+
+        videoPlayer.Prepare();
+
+        videoPlayer.prepareCompleted += OnVideoPrepared;
+    }
+
+    void OnVideoPrepared(VideoPlayer vp)
+    {
+        vp.prepareCompleted -= OnVideoPrepared;
+        vp.Play();
     }
 
     public void FecharVideo()
     {
         videoPlayer.Stop();
+
         videoDisplay.SetActive(false);
         background.SetActive(false);
 
-        // Limpa o clip para garantir que a lógica de comparação funcione bem na próxima
-        videoPlayer.clip = null;
+        videoAtual = null;
     }
 }

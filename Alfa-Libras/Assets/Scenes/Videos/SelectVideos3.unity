@@ -280,13 +280,13 @@ MonoBehaviour:
       - m_Target: {fileID: 52047200}
         m_TargetAssemblyTypeName: VideoController, Assembly-CSharp
         m_MethodName: ReproduzirVideo
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: 962f834a346df5242ab492c12fea9e20, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://res.cloudinary.com/drfc3fbsm/video/upload/q_auto/f_auto/v1778535388/AMARELO_gdue0l.mp4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &42348727
@@ -708,13 +708,13 @@ MonoBehaviour:
       - m_Target: {fileID: 52047200}
         m_TargetAssemblyTypeName: VideoController, Assembly-CSharp
         m_MethodName: ReproduzirVideo
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: 7368c3313f1415340b6083422a52512d, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://res.cloudinary.com/drfc3fbsm/video/upload/q_auto/f_auto/v1778535386/ROSA_bsylgt.mp4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &112904145
@@ -2079,13 +2079,13 @@ MonoBehaviour:
       - m_Target: {fileID: 52047200}
         m_TargetAssemblyTypeName: VideoController, Assembly-CSharp
         m_MethodName: ReproduzirVideo
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: 524b408382edfc7468013784e0636762, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://res.cloudinary.com/drfc3fbsm/video/upload/q_auto/f_auto/v1778535394/PRETO_sjec8l.mp4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &385057757
@@ -2475,13 +2475,13 @@ MonoBehaviour:
       - m_Target: {fileID: 52047200}
         m_TargetAssemblyTypeName: VideoController, Assembly-CSharp
         m_MethodName: ReproduzirVideo
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: 01c76f8e70774f24caf8f90ca8e6dbb2, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://res.cloudinary.com/drfc3fbsm/video/upload/q_auto/f_auto/v1778535394/ROXO_f6hfm2.mp4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &595763585
@@ -2644,13 +2644,13 @@ MonoBehaviour:
       - m_Target: {fileID: 52047200}
         m_TargetAssemblyTypeName: VideoController, Assembly-CSharp
         m_MethodName: ReproduzirVideo
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: 81ca47fbe0005db4d9dca07307e40726, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://res.cloudinary.com/drfc3fbsm/video/upload/q_auto/f_auto/v1778535387/BEGE_q0dbus.mp4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &673879251
@@ -3156,13 +3156,13 @@ MonoBehaviour:
       - m_Target: {fileID: 52047200}
         m_TargetAssemblyTypeName: VideoController, Assembly-CSharp
         m_MethodName: ReproduzirVideo
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: bd670b61afcd8c94383cdab2d16b3299, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://res.cloudinary.com/drfc3fbsm/video/upload/q_auto/f_auto/v1778535395/VERDE_mvhfmw.mp4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &746086528
@@ -3289,13 +3289,13 @@ MonoBehaviour:
       - m_Target: {fileID: 52047200}
         m_TargetAssemblyTypeName: VideoController, Assembly-CSharp
         m_MethodName: ReproduzirVideo
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: e16bfef1701af734a95d64fe40c3c837, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://res.cloudinary.com/drfc3fbsm/video/upload/q_auto/f_auto/v1778535389/CINZA_bxhabr.mp4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &758010471
@@ -3458,13 +3458,13 @@ MonoBehaviour:
       - m_Target: {fileID: 52047200}
         m_TargetAssemblyTypeName: VideoController, Assembly-CSharp
         m_MethodName: ReproduzirVideo
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: 90dcd265dd845fd4cb1d24318b386943, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://res.cloudinary.com/drfc3fbsm/video/upload/q_auto/f_auto/v1778535393/MARROM_kfolwh.mp4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &774667886
@@ -4626,13 +4626,13 @@ MonoBehaviour:
       - m_Target: {fileID: 52047200}
         m_TargetAssemblyTypeName: VideoController, Assembly-CSharp
         m_MethodName: ReproduzirVideo
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: 54152ece8dffab44193ef93d37696f8f, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://res.cloudinary.com/drfc3fbsm/video/upload/q_auto/f_auto/v1778535388/AZUL_peogmh.mp4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1282611308
@@ -5027,13 +5027,13 @@ MonoBehaviour:
       - m_Target: {fileID: 52047200}
         m_TargetAssemblyTypeName: VideoController, Assembly-CSharp
         m_MethodName: ReproduzirVideo
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: a5c441fa0aded0f498cba89b6c79b7f1, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://res.cloudinary.com/drfc3fbsm/video/upload/q_auto/f_auto/v1778535397/VINHO_kifwqr.mp4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1322757341
@@ -6147,13 +6147,13 @@ MonoBehaviour:
       - m_Target: {fileID: 52047200}
         m_TargetAssemblyTypeName: VideoController, Assembly-CSharp
         m_MethodName: ReproduzirVideo
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: d136d8fe3948a5e41be08a5c39078647, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://res.cloudinary.com/drfc3fbsm/video/upload/q_auto/f_auto/v1778535391/LARANJA_jgeitp.mp4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1854103455
@@ -7179,13 +7179,13 @@ MonoBehaviour:
       - m_Target: {fileID: 52047200}
         m_TargetAssemblyTypeName: VideoController, Assembly-CSharp
         m_MethodName: ReproduzirVideo
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 32900000, guid: fc5fa5a17d939c742be03a4efb0d09c5, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Video.VideoClip, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://res.cloudinary.com/drfc3fbsm/video/upload/q_auto/f_auto/v1778535390/BRANCO_wdlcup.mp4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &7920608529636853469
