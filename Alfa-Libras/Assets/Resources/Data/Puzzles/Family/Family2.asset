@@ -39,7 +39,7 @@ MonoBehaviour:
     - F
     - A
     - M
-    - I
+    - "\xCD"
     - L
     - I
     - A

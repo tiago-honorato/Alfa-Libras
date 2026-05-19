@@ -28,6 +28,8 @@ public class VideoController : MonoBehaviour
         videoPlayer.url = urlVideo;
 
         background.SetActive(true);
+
+        
         videoDisplay.SetActive(true);
 
         videoPlayer.Prepare();
