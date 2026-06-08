@@ -5,9 +5,12 @@ public class DataSaver : MonoBehaviour
     public static int ReadCategoryCurrentIndexValues(string name)
     {
 
-        var value = -1;
+        var value = 0;
         if (PlayerPrefs.HasKey(name))
             value = PlayerPrefs.GetInt(name);
+
+        if (value == -1)
+            value = 0;
 
         return value;
 
@@ -23,11 +26,9 @@ public class DataSaver : MonoBehaviour
     {
         foreach (var data in levelData.data)
         {
-            PlayerPrefs.SetInt(data.categoryName, -1);
+            PlayerPrefs.SetInt(data.categoryName, 0);
         }
 
-        //unlock first level
-        PlayerPrefs.SetInt(levelData.data[0].categoryName, 0);
         PlayerPrefs.Save();
     }
 }
