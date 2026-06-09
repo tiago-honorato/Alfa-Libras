@@ -1,15 +1,16 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using System.Collections;
 using System.Collections.Generic;
 
 public class SearchingWord : MonoBehaviour
 {
 
-    public Text displayedText;
+    public TMP_Text displayedText;
     public Image crossLine;
 
-    public Font font;
+    public TMP_FontAsset font;
 
     private string _word;
 
