@@ -16,3 +16,13 @@
 *.jpg binary
 *.jpeg binary
 *.dll binary
+
+# Ocultar arquivos de Shader das estatísticas de linguagem do GitHub
+*.shader linguist-documentation=true
+*.shadergraph linguist-documentation=true
+*.hlsl linguist-documentation=true
+*.cginc linguist-documentation=true
+
+# HTML/CSS de alguma biblioteca ou UI do projeto
+*.html linguist-documentation=true
+*.css linguist-documentation=true
