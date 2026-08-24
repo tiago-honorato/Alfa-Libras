@@ -13,9 +13,15 @@ Projeto de desenvolvimento focado na criação de um aplicativo estilo caça-pal
 
 ---
 
-## 🚀 **Como Jogar via Web ou Instalar**
-1. Jogue no browser no itch.io pelo [LINK](https://hiruz.itch.io/caca-sinais)
-2. Se quiser baixar, extraia os arquivos do jogo para um diretório de sua preferência.
+## 🚀 Como Jogar ou Instalar
+
+Escolha a melhor opção para você:
+
+* 🌐 **Jogar no Navegador:** Acesse diretamente pelo [itch.io](https://hiruz.itch.io/caca-sinais) para jogar online sem instalar nada.
+* 📱 **Instalar no Android (APK):**
+  1. Vá até a seção de [Releases](../../releases).
+  2. Baixe o arquivo `.apk` da versão mais recente em **Assets**.
+  3. No seu celular, abra o arquivo baixado para instalar (habilite a permissão de *fontes desconhecidas*, se solicitado).
 
 ---
 
