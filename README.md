@@ -6,7 +6,11 @@
 Projeto de desenvolvimento focado na criação de um aplicativo estilo caça-palavras, adaptado para o ensino e prática da Língua Brasileira de Sinais (LIBRAS). O objetivo principal é associar o entretenimento à educação para surdos e ouvintes, utilizando o alfabeto datilológico e configurações de mão da LIBRAS em substituição às letras do alfabeto latino tradicional. O desenvolvimento envolve etapas de design de interface, desenvolvimento de software via Unity Engine e validação pedagógica do conteúdo.
 
 ---
-![telaPrincipal](https://github.com/user-attachments/assets/f6bb48c6-69b0-43b5-a592-5727d5413560)
+<img width="250" height="500" alt="grid-sinais-alfa-libras" src="https://github.com/user-attachments/assets/f6bb48c6-69b0-43b5-a592-5727d5413560" />
+<img width="260" height="500" alt="temas-alfa-libras" src="https://github.com/user-attachments/assets/1284af4a-1f3b-4f61-ab49-2b47e9104e54" />
+<img width="250" height="500" alt="grid-sinais-alfa-libras" src="https://github.com/user-attachments/assets/37282d76-7847-45cf-a0d6-88190a4e08d8" />
+
+
 ---
 
 ## 🚀 **Como Jogar via Web ou Instalar**
